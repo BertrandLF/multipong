@@ -50,6 +50,8 @@ const _Top$_124_$Left_016f8f7c09e96f326d3d     = '016f8f7c09e96f326d3d';
 
 // Definition of tags of defined properties
 const _Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001 = '01621fb84e320000f001';
+const _Component_Border_Color_0163ba942b6ee2bc78c0  = '0163ba942b6ee2bc78c0';
+const _Component_Border_Width_0163ba941097ae1920b0  = '0163ba941097ae1920b0';
 const _Component_Hidden_01611d9a88f340465399        = '01611d9a88f340465399';
 const _Component_Rank_016c23bd12493a7e1b2e          = '016c23bd12493a7e1b2e';
 const _Component_X_01611d99243ad989b91b             = '01611d99243ad989b91b';
@@ -569,10 +571,13 @@ db.newInstance(_instance_of_QrCodeDisplay____New_QrCodeDisplay_0178f3a0443cf50ec
     // Tag of parent goos
     .addParentGoo(_instance_of_Screen_model____MainScreen_0178f3944ca3868808df)
     .setNameOrProperties({
+        [_Component_Border_Color_0163ba942b6ee2bc78c0]:db.createColor(0,0,0,0),
+        [_Component_Border_Width_0163ba941097ae1920b0]:0,
         [_Component_Rank_016c23bd12493a7e1b2e]  :2,
         [_Component_X_01611d99243ad989b91b]     :663,
         [_Component_Y_01611d9962e7f4f9a26d]     :507,
         [_Object_name_ff023000000000000011]     :'New QrCodeDisplay',
+        [_Renderable_Default_Color_01611d9c686bbed5fdba]:db.createColor(255,255,255,1),
         'v'                                     :1
     })
     .done();
