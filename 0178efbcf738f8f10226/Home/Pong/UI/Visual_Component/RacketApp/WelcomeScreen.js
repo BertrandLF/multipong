@@ -62,6 +62,7 @@ const _Component_Hidden_01611d9a88f340465399        = '01611d9a88f340465399';
 const _Component_Rank_016c23bd12493a7e1b2e          = '016c23bd12493a7e1b2e';
 const _Component_X_01611d99243ad989b91b             = '01611d99243ad989b91b';
 const _Component_Y_01611d9962e7f4f9a26d             = '01611d9962e7f4f9a26d';
+const _Component_Z$_45_$Index_0162e2bd70fb607442d4  = '0162e2bd70fb607442d4';
 const _Composer_Property_computable_016d1bb681929c2cc3f3 = '016d1bb681929c2cc3f3';
 const _Documentation_Metadata_description_01703376c4a81c0e9d92 = '01703376c4a81c0e9d92';
 const _Documentation_Metadata_toolTip_01703376c4a81c0e9d91 = '01703376c4a81c0e9d91';
@@ -1556,6 +1557,7 @@ db.newInstance(_instance_of_More_Than6____New_More_Than6_0178f8c411d41f557dd8)
         [_Component_Rank_016c23bd12493a7e1b2e]  :0,
         [_Component_X_01611d99243ad989b91b]     :898,
         [_Component_Y_01611d9962e7f4f9a26d]     :191,
+        [_Component_Z$_45_$Index_0162e2bd70fb607442d4]:1,
         [_Object_name_ff023000000000000011]     :'New More Than6',
         'v'                                     :1
     })
@@ -1953,7 +1955,7 @@ db.newInstance(_instance_of_Pipe_0178f8d277bb162ddf15)
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
     .setNameOrProperties({
-        [_Pipe_Source_Value_0168a431d91f25780001]:true,
+        [_Pipe_Source_Value_0168a431d91f25780001]:false,
         'v'                                     :1
     })
     .done();
@@ -1963,7 +1965,7 @@ db.newInstance(_instance_of_Pipe_0178f8d2b34ec2051987)
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
     .setNameOrProperties({
-        [_Pipe_Source_Value_0168a431d91f25780001]:false,
+        [_Pipe_Source_Value_0168a431d91f25780001]:true,
         'v'                                     :1
     })
     .done();

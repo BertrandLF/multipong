@@ -58,6 +58,10 @@ const _instance_of_Pipe_0178f8c1f1b3525ef78a        = db.assignTag('0178f8c1f1b3
 const _instance_of_Pipe_0178f8c1f1b361f99fc8        = db.assignTag('0178f8c1f1b361f99fc8');
 const _instance_of_Pipe_0178f8c1f1b3f6b4c475        = db.assignTag('0178f8c1f1b3f6b4c475');
 const _instance_of_Label____New_Label_0178f8c2bdb28e50512c = db.assignTag('0178f8c2bdb28e50512c');
+const _instance_of_Center$_124_$Middle_0178f8e6219af88174ce = db.assignTag('0178f8e6219af88174ce');
+const _instance_of_Pipe_0178f8e6219b63147df3        = db.assignTag('0178f8e6219b63147df3');
+const _instance_of_Pipe_0178f8e6219c81cfb037        = db.assignTag('0178f8e6219c81cfb037');
+const _instance_of_Pipe_0178f8e6219cf978c8c5        = db.assignTag('0178f8e6219cf978c8c5');
 
 
 //==========================================================
@@ -200,10 +204,46 @@ db.newInstance(_instance_of_Label____New_Label_0178f8c2bdb28e50512c)
     .setNameOrProperties({
         [_Component_Rank_016c23bd12493a7e1b2e]  :1,
         [_Component_X_01611d99243ad989b91b]     :321,
-        [_Component_Y_01611d9962e7f4f9a26d]     :177,
+        [_Component_Y_01611d9962e7f4f9a26d]     :256,
         [_Object_name_ff023000000000000011]     :'New Label',
         [_Renderable_Width_01611d99ec0553b5926e]:423,
         [_TextComponent_Text_01633fa386be67e6fd1d]:'Max. number of player reached .... please wait',
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Center$_124_$Middle_0178f8e6219af88174ce
+db.newInstance(_instance_of_Center$_124_$Middle_0178f8e6219af88174ce)
+    .setModelTag(_Center$_124_$Middle_016f8a9d9ea15c1f31c2) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8e6219b63147df3
+db.newInstance(_instance_of_Pipe_0178f8e6219b63147df3)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Label____New_Label_0178f8c2bdb28e50512c)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8e6219c81cfb037
+db.newInstance(_instance_of_Pipe_0178f8e6219c81cfb037)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Label____New_Label_0178f8c2bdb28e50512c)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8e6219cf978c8c5
+db.newInstance(_instance_of_Pipe_0178f8e6219cf978c8c5)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656)
+    .setNameOrProperties({
         'v'                                     :1
     })
     .done();
@@ -217,44 +257,62 @@ db.assign(_instance_of_Pipe_0178f8c1e8bbb60c45fc            , _Pipe_Source_Scope
 db.assign(_instance_of_Pipe_0178f8c1f1b3525ef78a            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe);
 db.assign(_instance_of_Pipe_0178f8c1f1b361f99fc8            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656);
 db.assign(_instance_of_Pipe_0178f8c1f1b3f6b4c475            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Center$_124_$Middle_0178f8c1f1b2734d41a6);
+db.assign(_instance_of_Pipe_0178f8e6219b63147df3            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Center$_124_$Middle_0178f8e6219af88174ce);
+db.assign(_instance_of_Pipe_0178f8e6219c81cfb037            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Label____New_Label_0178f8c2bdb28e50512c);
+db.assign(_instance_of_Pipe_0178f8e6219cf978c8c5            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656);
 db.assign(_instance_of_Pipe_0178f8c1e8bbb60c45fc            , _Pipe_Source_Output_0168a431d91f25780003          , _result_016f8aa140e84a037378                      );
 db.assign(_instance_of_Pipe_0178f8c1f1b3f6b4c475            , _Pipe_Source_Output_0168a431d91f25780003          , _result_016f8aa140e84a037378                      );
+db.assign(_instance_of_Pipe_0178f8e6219b63147df3            , _Pipe_Source_Output_0168a431d91f25780003          , _result_016f8aa140e84a037378                      );
 db.assign(_instance_of_Pipe_0178f8c1e8bb55f1c1f8            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Width_01611d99ec0553b5926e            );
 db.assign(_instance_of_Pipe_0178f8c1e8bb9cdec4fe            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Width_01611d99ec0553b5926e            );
 db.assign(_instance_of_Pipe_0178f8c1f1b3525ef78a            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Height_01611d9a0452a179c68f           );
 db.assign(_instance_of_Pipe_0178f8c1f1b361f99fc8            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Height_01611d9a0452a179c68f           );
+db.assign(_instance_of_Pipe_0178f8e6219c81cfb037            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Width_01611d99ec0553b5926e            );
+db.assign(_instance_of_Pipe_0178f8e6219cf978c8c5            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Width_01611d99ec0553b5926e            );
 db.assign(_instance_of_Pipe_0178f8c1e8bb55f1c1f8            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Center$_124_$Middle_0178f8c1e8ba1fdb17d9);
 db.assign(_instance_of_Pipe_0178f8c1e8bb9cdec4fe            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Center$_124_$Middle_0178f8c1e8ba1fdb17d9);
 db.assign(_instance_of_Pipe_0178f8c1e8bbb60c45fc            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe);
 db.assign(_instance_of_Pipe_0178f8c1f1b3525ef78a            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Center$_124_$Middle_0178f8c1f1b2734d41a6);
 db.assign(_instance_of_Pipe_0178f8c1f1b361f99fc8            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Center$_124_$Middle_0178f8c1f1b2734d41a6);
 db.assign(_instance_of_Pipe_0178f8c1f1b3f6b4c475            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe);
+db.assign(_instance_of_Pipe_0178f8e6219b63147df3            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Label____New_Label_0178f8c2bdb28e50512c);
+db.assign(_instance_of_Pipe_0178f8e6219c81cfb037            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Center$_124_$Middle_0178f8e6219af88174ce);
+db.assign(_instance_of_Pipe_0178f8e6219cf978c8c5            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Center$_124_$Middle_0178f8e6219af88174ce);
 db.assign(_instance_of_Pipe_0178f8c1e8bb55f1c1f8            , _Pipe_Destination_Input_0168a431d91f2578000b      , _containerLength_016f8ab7aa1eec9b9f0a             );
 db.assign(_instance_of_Pipe_0178f8c1e8bb9cdec4fe            , _Pipe_Destination_Input_0168a431d91f2578000b      , _elementLength_016f8af383a2db284c53               );
 db.assign(_instance_of_Pipe_0178f8c1f1b3525ef78a            , _Pipe_Destination_Input_0168a431d91f2578000b      , _elementLength_016f8af383a2db284c53               );
 db.assign(_instance_of_Pipe_0178f8c1f1b361f99fc8            , _Pipe_Destination_Input_0168a431d91f2578000b      , _containerLength_016f8ab7aa1eec9b9f0a             );
+db.assign(_instance_of_Pipe_0178f8e6219c81cfb037            , _Pipe_Destination_Input_0168a431d91f2578000b      , _elementLength_016f8af383a2db284c53               );
+db.assign(_instance_of_Pipe_0178f8e6219cf978c8c5            , _Pipe_Destination_Input_0168a431d91f2578000b      , _containerLength_016f8ab7aa1eec9b9f0a             );
 db.assign(_instance_of_Pipe_0178f8c1e8bbb60c45fc            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_X_01611d99243ad989b91b                 );
 db.assign(_instance_of_Pipe_0178f8c1f1b3f6b4c475            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_Y_01611d9962e7f4f9a26d                 );
+db.assign(_instance_of_Pipe_0178f8e6219b63147df3            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_X_01611d99243ad989b91b                 );
 db.assign(_instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Rectangle_01646f6a3fa5615a5bd1                   );
 db.assign(_instance_of_Center$_124_$Middle_0178f8c1e8ba1fdb17d9, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Center$_124_$Middle_016f8a9d9ea15c1f31c2         );
 db.assign(_instance_of_Center$_124_$Middle_0178f8c1f1b2734d41a6, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Center$_124_$Middle_016f8a9d9ea15c1f31c2         );
 db.assign(_instance_of_Label____New_Label_0178f8c2bdb28e50512c, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Label_01612df39109cf82fa8d                       );
+db.assign(_instance_of_Center$_124_$Middle_0178f8e6219af88174ce, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Center$_124_$Middle_016f8a9d9ea15c1f31c2         );
 db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe);
 db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Center$_124_$Middle_0178f8c1e8ba1fdb17d9);
 db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Center$_124_$Middle_0178f8c1f1b2734d41a6);
 db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Label____New_Label_0178f8c2bdb28e50512c);
+db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Center$_124_$Middle_0178f8e6219af88174ce);
 db.assign(_instance_of_Absolute_0178f8c15aac24d8f339        , _Delegate_Delegator_Relation_016c3cb7742ec9309e0b , _instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe);
 db.assign(_instance_of_Absolute_0178f8c15aac24d8f339        , _Delegate_Delegator_Relation_016c3cb7742ec9309e0b , _instance_of_Label____New_Label_0178f8c2bdb28e50512c);
 db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Object_containsRel_ff02200000000000000f          , _instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe);
 db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8c1e8bb55f1c1f8            );
 db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8c1f1b361f99fc8            );
 db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Object_containsRel_ff02200000000000000f          , _instance_of_Label____New_Label_0178f8c2bdb28e50512c);
+db.assign(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8e6219cf978c8c5            );
 db.assign(_instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe, _Object_containsRel_ff02200000000000000f          , _instance_of_Center$_124_$Middle_0178f8c1e8ba1fdb17d9);
 db.assign(_instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8c1e8bb9cdec4fe            );
 db.assign(_instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8c1e8bbb60c45fc            );
 db.assign(_instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe, _Object_containsRel_ff02200000000000000f          , _instance_of_Center$_124_$Middle_0178f8c1f1b2734d41a6);
 db.assign(_instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8c1f1b3525ef78a            );
 db.assign(_instance_of_Rectangle____New_Rectangle_0178f8c1c0726c80e1fe, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8c1f1b3f6b4c475            );
+db.assign(_instance_of_Label____New_Label_0178f8c2bdb28e50512c, _Object_containsRel_ff02200000000000000f          , _instance_of_Center$_124_$Middle_0178f8e6219af88174ce);
+db.assign(_instance_of_Label____New_Label_0178f8c2bdb28e50512c, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8e6219b63147df3            );
+db.assign(_instance_of_Label____New_Label_0178f8c2bdb28e50512c, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8e6219c81cfb037            );
 db.assignOptional(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _Object_gooRel_ff022000000000000003, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656, _GOO_parentGooRel_ff02200000000000000u, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_RacketApp_0178f39b0bbbad11abdd, _Object_containsRel_ff02200000000000000f, _instance_of_Visual_Component_model____More_Than6_0178f8c15aac55fca656);

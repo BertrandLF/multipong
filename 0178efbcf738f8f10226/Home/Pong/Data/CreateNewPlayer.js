@@ -24,6 +24,7 @@ const _Predefined_input_Control_Flow_of_Action_016ac63229782039429f = '016ac6322
 const _Predefined_output_Control_Flow_016ac6322acf67eebfe7 = '016ac6322acf67eebfe7';
 const _Runnable_Input_0168a431d25001540001     = '0168a431d25001540001';
 const _Runnable_Output_0168a431d25001540002    = '0168a431d25001540002';
+const _Set_Object_Property_01632a7cbe87ca19c5f1 = '01632a7cbe87ca19c5f1';
 
 
 // Definition of tags of defined properties
@@ -32,6 +33,7 @@ const _Function_Metadata_x_01621f6ab58c2f884654     = '01621f6ab58c2f884654';
 const _Function_Metadata_y_01621f6ab6ac89348f20     = '01621f6ab6ac89348f20';
 const _Object_name_ff023000000000000011             = 'ff023000000000000011';
 const _Pipe_Source_Value_0168a431d91f25780001       = '0168a431d91f25780001';
+const _Player_Ingame_0178f8f204e1d15661f7           = '0178f8f204e1d15661f7';
 const _Runnable_IO_IO_Rank_01740c5d4ae4b520dd01     = '01740c5d4ae4b520dd01';
 
 
@@ -77,8 +79,15 @@ const _instance_of_Runnable_Output____Player_0178f44f7f1dc3da0e7b = db.assignTag
 const _instance_of_Pipe_0178f44f852f548cd71f        = db.assignTag('0178f44f852f548cd71f');
 const _instance_of_Pipe_0178f450d1bd9e3b2e2a        = db.assignTag('0178f450d1bd9e3b2e2a');
 const _instance_of_ObjectRef_0178f450ddeb3a8309ce   = db.assignTag('0178f450ddeb3a8309ce');
-const _instance_of_Pipe_0178f493978992d68147        = db.assignTag('0178f493978992d68147');
-const _instance_of_Pipe_0178f4939f6ff7ec3312        = db.assignTag('0178f4939f6ff7ec3312');
+const _instance_of_Set_Object_Property_0178f8f2a68059a2e90b = db.assignTag('0178f8f2a68059a2e90b');
+const _instance_of_Function_Metadata_0178f8f2a6809ec5fd0d = db.assignTag('0178f8f2a6809ec5fd0d');
+const _instance_of_Pipe_0178f8f2adeec266991f        = db.assignTag('0178f8f2adeec266991f');
+const _instance_of_Pipe_0178f8f2b52dcce894c8        = db.assignTag('0178f8f2b52dcce894c8');
+const _instance_of_Pipe_0178f8f2c892ccbda116        = db.assignTag('0178f8f2c892ccbda116');
+const _instance_of_Pipe_0178f8f2ce317226d87a        = db.assignTag('0178f8f2ce317226d87a');
+const _instance_of_Pipe_0178f8f2d524600e7032        = db.assignTag('0178f8f2d524600e7032');
+const _instance_of_ObjectRef_0178f8f2e8adb6391613   = db.assignTag('0178f8f2e8adb6391613');
+const _instance_of_Pipe_0178f8f2ee0105c4c8e0        = db.assignTag('0178f8f2ee0105c4c8e0');
 
 
 //==========================================================
@@ -88,11 +97,17 @@ const _Control_Flow_0162f2e963b7c9ed85b7       = '0162f2e963b7c9ed85b7';
 const _Control_Flow_0162f2e963b8c9ed85b7       = '0162f2e963b8c9ed85b7';
 const _Control_Flow_0162f670ecedab67c134       = '0162f670ecedab67c134';
 const _Control_Flow_0162f670eceeab67c134       = '0162f670eceeab67c134';
+const _Control_Flow_01632a7cbe88ca19c5f1       = '01632a7cbe88ca19c5f1';
+const _Control_Flow_01632a7cbe89ca19c5f1       = '01632a7cbe89ca19c5f1';
 const _Data_0178f374f0d9562a9861               = '0178f374f0d9562a9861';
 const _model_0162f2eab3eadc7dff16              = '0162f2eab3eadc7dff16';
 const _object_0162f2eaea705e367590             = '0162f2eaea705e367590';
 const _object_0162f6fc16a98161c1fa             = '0162f6fc16a98161c1fa';
 const _object_0162f6fc1a894b89151e             = '0162f6fc1a894b89151e';
+const _object_01632a7cbe871e21e4d3             = '01632a7cbe871e21e4d3';
+const _object_01632a7cbe8797167e44             = '01632a7cbe8797167e44';
+const _property_01632a7cbe87c72b65f2           = '01632a7cbe87c72b65f2';
+const _value_01632a7cbe8710c66bc3              = '01632a7cbe8710c66bc3';
 
 
 
@@ -300,8 +315,31 @@ db.newInstance(_instance_of_ObjectRef_0178f450ddeb3a8309ce)
         'v'                                     :1
     })
     .done();
-// :_instance_of_Pipe_0178f493978992d68147
-db.newInstance(_instance_of_Pipe_0178f493978992d68147)
+// :_instance_of_Set_Object_Property_0178f8f2a68059a2e90b
+db.newInstance(_instance_of_Set_Object_Property_0178f8f2a68059a2e90b)
+    .setModelTag(_Set_Object_Property_01632a7cbe87ca19c5f1) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b)
+    .setNameOrProperties({
+        [_Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001]:'private',
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Function_Metadata_0178f8f2a6809ec5fd0d
+db.newInstance(_instance_of_Function_Metadata_0178f8f2a6809ec5fd0d)
+    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Set_Object_Property_0178f8f2a68059a2e90b)
+    .setNameOrProperties({
+        [_Function_Metadata_x_01621f6ab58c2f884654]:20146,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:19917,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8f2adeec266991f
+db.newInstance(_instance_of_Pipe_0178f8f2adeec266991f)
     .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b)
@@ -309,12 +347,56 @@ db.newInstance(_instance_of_Pipe_0178f493978992d68147)
         'v'                                     :1
     })
     .done();
-// :_instance_of_Pipe_0178f4939f6ff7ec3312
-db.newInstance(_instance_of_Pipe_0178f4939f6ff7ec3312)
+// :_instance_of_Pipe_0178f8f2b52dcce894c8
+db.newInstance(_instance_of_Pipe_0178f8f2b52dcce894c8)
     .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b)
     .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8f2c892ccbda116
+db.newInstance(_instance_of_Pipe_0178f8f2c892ccbda116)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8f2ce317226d87a
+db.newInstance(_instance_of_Pipe_0178f8f2ce317226d87a)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8f2d524600e7032
+db.newInstance(_instance_of_Pipe_0178f8f2d524600e7032)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_ObjectRef_0178f8f2e8adb6391613
+db.newInstance(_instance_of_ObjectRef_0178f8f2e8adb6391613)
+    .setModelTag(_ObjectRef_0163c9ae01f2d6e9ca49) // tag of the model
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8f2ee0105c4c8e0
+db.newInstance(_instance_of_Pipe_0178f8f2ee0105c4c8e0)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b)
+    .setNameOrProperties({
+        [_Pipe_Source_Value_0168a431d91f25780001]:false,
         'v'                                     :1
     })
     .done();
@@ -322,8 +404,13 @@ db.updateInstance(_instance_of_Pipe_0178f450d1bd9e3b2e2a, {
         [_Pipe_Source_Value_0168a431d91f25780001]:db.createReference(_instance_of_ObjectRef_0178f450ddeb3a8309ce),
         'v'                                     :3
     });
+db.updateInstance(_instance_of_Pipe_0178f8f2d524600e7032, {
+        [_Pipe_Source_Value_0168a431d91f25780001]:db.createReference(_instance_of_ObjectRef_0178f8f2e8adb6391613),
+        'v'                                     :3
+    });
 db.assign(_instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f44dc9c1a0804d2f);
 db.assign(_instance_of_Persist_Object_0178f44dd9b7373297c7  , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f44dd9b710a096f0);
+db.assign(_instance_of_Set_Object_Property_0178f8f2a68059a2e90b, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8f2a6809ec5fd0d);
 db.assign(_instance_of_Ascender_0178f44d60dcfadd55d5        , _Ascender_Input_01621fb84e32000000a1              , _instance_of_Runnable_Input____New_input_0178f44d60dc0a380222);
 db.assign(_instance_of_Ascender_0178f44f7f1d2e40d5eb        , _Ascender_Input_01621fb84e32000000a1              , _instance_of_Runnable_Input____New_input_0178f44f7f1daa5c868f);
 db.assign(_instance_of_Ascender_0178f44d60dcfadd55d5        , _Ascender_Upward_01621fb84e32000000a2             , _instance_of_Predefined_output_Control_Flow____Control_Flow_0178f44d60dce1c252ca);
@@ -342,33 +429,48 @@ db.assign(_instance_of_Runnable_Output____Player_0178f44f7f1dc3da0e7b, _Runnable
 db.assign(_instance_of_Pipe_0178f44f54f427c43521            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Descender_0178f44d60dc7506d624       );
 db.assign(_instance_of_Pipe_0178f44f5e3c26fc6813            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Persist_Object_0178f44dd9b7373297c7  );
 db.assign(_instance_of_Pipe_0178f44f852f548cd71f            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Persist_Object_0178f44dd9b7373297c7  );
-db.assign(_instance_of_Pipe_0178f493978992d68147            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca);
-db.assign(_instance_of_Pipe_0178f4939f6ff7ec3312            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca);
+db.assign(_instance_of_Pipe_0178f8f2adeec266991f            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca);
+db.assign(_instance_of_Pipe_0178f8f2b52dcce894c8            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca);
+db.assign(_instance_of_Pipe_0178f8f2c892ccbda116            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Set_Object_Property_0178f8f2a68059a2e90b);
+db.assign(_instance_of_Pipe_0178f8f2ce317226d87a            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Set_Object_Property_0178f8f2a68059a2e90b);
 db.assign(_instance_of_Pipe_0178f44f54f427c43521            , _Pipe_Source_Output_0168a431d91f25780003          , _instance_of_Runnable_Output____New_output_0178f44d60dcf1ebcb24);
 db.assign(_instance_of_Pipe_0178f44f5e3c26fc6813            , _Pipe_Source_Output_0168a431d91f25780003          , _Control_Flow_0162f670eceeab67c134                );
 db.assign(_instance_of_Pipe_0178f44f852f548cd71f            , _Pipe_Source_Output_0168a431d91f25780003          , _object_0162f6fc1a894b89151e                      );
-db.assign(_instance_of_Pipe_0178f493978992d68147            , _Pipe_Source_Output_0168a431d91f25780003          , _object_0162f2eaea705e367590                      );
-db.assign(_instance_of_Pipe_0178f4939f6ff7ec3312            , _Pipe_Source_Output_0168a431d91f25780003          , _Control_Flow_0162f2e963b8c9ed85b7                );
+db.assign(_instance_of_Pipe_0178f8f2adeec266991f            , _Pipe_Source_Output_0168a431d91f25780003          , _object_0162f2eaea705e367590                      );
+db.assign(_instance_of_Pipe_0178f8f2b52dcce894c8            , _Pipe_Source_Output_0168a431d91f25780003          , _Control_Flow_0162f2e963b8c9ed85b7                );
+db.assign(_instance_of_Pipe_0178f8f2c892ccbda116            , _Pipe_Source_Output_0168a431d91f25780003          , _Control_Flow_01632a7cbe89ca19c5f1                );
+db.assign(_instance_of_Pipe_0178f8f2ce317226d87a            , _Pipe_Source_Output_0168a431d91f25780003          , _object_01632a7cbe871e21e4d3                      );
 db.assign(_instance_of_Pipe_0178f44f54f427c43521            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca);
 db.assign(_instance_of_Pipe_0178f44f5e3c26fc6813            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Ascender_0178f44d60dcfadd55d5        );
 db.assign(_instance_of_Pipe_0178f44f852f548cd71f            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Ascender_0178f44f7f1d2e40d5eb        );
 db.assign(_instance_of_Pipe_0178f450d1bd9e3b2e2a            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca);
-db.assign(_instance_of_Pipe_0178f493978992d68147            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Persist_Object_0178f44dd9b7373297c7  );
-db.assign(_instance_of_Pipe_0178f4939f6ff7ec3312            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Persist_Object_0178f44dd9b7373297c7  );
+db.assign(_instance_of_Pipe_0178f8f2adeec266991f            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_Object_Property_0178f8f2a68059a2e90b);
+db.assign(_instance_of_Pipe_0178f8f2b52dcce894c8            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_Object_Property_0178f8f2a68059a2e90b);
+db.assign(_instance_of_Pipe_0178f8f2c892ccbda116            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Persist_Object_0178f44dd9b7373297c7  );
+db.assign(_instance_of_Pipe_0178f8f2ce317226d87a            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Persist_Object_0178f44dd9b7373297c7  );
+db.assign(_instance_of_Pipe_0178f8f2d524600e7032            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_Object_Property_0178f8f2a68059a2e90b);
+db.assign(_instance_of_Pipe_0178f8f2ee0105c4c8e0            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_Object_Property_0178f8f2a68059a2e90b);
 db.assign(_instance_of_Pipe_0178f44f54f427c43521            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Control_Flow_0162f2e963b7c9ed85b7                );
 db.assign(_instance_of_Pipe_0178f44f5e3c26fc6813            , _Pipe_Destination_Input_0168a431d91f2578000b      , _instance_of_Runnable_Input____New_input_0178f44d60dc0a380222);
 db.assign(_instance_of_Pipe_0178f44f852f548cd71f            , _Pipe_Destination_Input_0168a431d91f2578000b      , _instance_of_Runnable_Input____New_input_0178f44f7f1daa5c868f);
 db.assign(_instance_of_Pipe_0178f450d1bd9e3b2e2a            , _Pipe_Destination_Input_0168a431d91f2578000b      , _model_0162f2eab3eadc7dff16                       );
-db.assign(_instance_of_Pipe_0178f493978992d68147            , _Pipe_Destination_Input_0168a431d91f2578000b      , _object_0162f6fc16a98161c1fa                      );
-db.assign(_instance_of_Pipe_0178f4939f6ff7ec3312            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Control_Flow_0162f670ecedab67c134                );
+db.assign(_instance_of_Pipe_0178f8f2adeec266991f            , _Pipe_Destination_Input_0168a431d91f2578000b      , _object_01632a7cbe8797167e44                      );
+db.assign(_instance_of_Pipe_0178f8f2b52dcce894c8            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Control_Flow_01632a7cbe88ca19c5f1                );
+db.assign(_instance_of_Pipe_0178f8f2c892ccbda116            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Control_Flow_0162f670ecedab67c134                );
+db.assign(_instance_of_Pipe_0178f8f2ce317226d87a            , _Pipe_Destination_Input_0168a431d91f2578000b      , _object_0162f6fc16a98161c1fa                      );
+db.assign(_instance_of_Pipe_0178f8f2d524600e7032            , _Pipe_Destination_Input_0168a431d91f2578000b      , _property_01632a7cbe87c72b65f2                    );
+db.assign(_instance_of_Pipe_0178f8f2ee0105c4c8e0            , _Pipe_Destination_Input_0168a431d91f2578000b      , _value_01632a7cbe8710c66bc3                       );
 db.assign(_instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Create_Local_Object_0162f2e963b6c9ed85b7         );
 db.assign(_instance_of_Persist_Object_0178f44dd9b7373297c7  , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Persist_Object_0162f670ececab67c134              );
+db.assign(_instance_of_Set_Object_Property_0178f8f2a68059a2e90b, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Set_Object_Property_01632a7cbe87ca19c5f1         );
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Descender_0178f44d60dc7506d624       );
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Ascender_0178f44d60dcfadd55d5        );
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca);
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Persist_Object_0178f44dd9b7373297c7  );
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Ascender_0178f44f7f1d2e40d5eb        );
+db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Set_Object_Property_0178f8f2a68059a2e90b);
 db.assign(_instance_of_ObjectRef_0178f450ddeb3a8309ce       , _ObjectRef_reference_0169b5a8a33144fb0b49         , _Player_0178f3760227c2853e6f                      );
+db.assign(_instance_of_ObjectRef_0178f8f2e8adb6391613       , _ObjectRef_reference_0169b5a8a33144fb0b49         , _Player_Ingame_0178f8f204e1d15661f7               );
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Predefined_input_Control_Flow_of_Action____Control_Flow_0178f44d60dc16f59f9f);
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Predefined_output_Control_Flow____Control_Flow_0178f44d60dce1c252ca);
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca);
@@ -378,8 +480,13 @@ db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Ob
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Output____Player_0178f44f7f1dc3da0e7b);
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f44f852f548cd71f            );
 db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f450d1bd9e3b2e2a            );
-db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f493978992d68147            );
-db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f4939f6ff7ec3312            );
+db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Set_Object_Property_0178f8f2a68059a2e90b);
+db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8f2adeec266991f            );
+db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8f2b52dcce894c8            );
+db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8f2c892ccbda116            );
+db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8f2ce317226d87a            );
+db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8f2d524600e7032            );
+db.assign(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8f2ee0105c4c8e0            );
 db.assign(_instance_of_Descender_0178f44d60dc7506d624       , _Object_containsRel_ff02200000000000000f          , _instance_of_Predefined_input_Control_Flow_of_Action____Control_Flow_0178f44d60dc16f59f9f);
 db.assign(_instance_of_Descender_0178f44d60dc7506d624       , _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Output____New_output_0178f44d60dcf1ebcb24);
 db.assign(_instance_of_Ascender_0178f44d60dcfadd55d5        , _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Input____New_input_0178f44d60dc0a380222);
@@ -388,6 +495,7 @@ db.assign(_instance_of_Create_Local_Object_0178f44dc9c11ba1b5ca, _Object_contain
 db.assign(_instance_of_Persist_Object_0178f44dd9b7373297c7  , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f44dd9b710a096f0);
 db.assign(_instance_of_Ascender_0178f44f7f1d2e40d5eb        , _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Input____New_input_0178f44f7f1daa5c868f);
 db.assign(_instance_of_Ascender_0178f44f7f1d2e40d5eb        , _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Output____Player_0178f44f7f1dc3da0e7b);
+db.assign(_instance_of_Set_Object_Property_0178f8f2a68059a2e90b, _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f8f2a6809ec5fd0d);
 db.assignOptional(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _Object_gooRel_ff022000000000000003, _Data_0178f374f0d9562a9861);
 db.assignOptional(_instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b, _GOO_parentGooRel_ff02200000000000000u, _Data_0178f374f0d9562a9861);
 db.assignOptional(_Data_0178f374f0d9562a9861, _Object_containsRel_ff02200000000000000f, _instance_of_Action_model____CreateNewPlayer_0178f44d60db71b86f1b);

@@ -27,6 +27,7 @@ const _Log_016324e7338307c3ed94                = '016324e7338307c3ed94';
 const _Number_ff021000000000000013             = 'ff021000000000000013';
 const _OnValue_016682d396a6b4c97363            = '016682d396a6b4c97363';
 const _Pipe_0168a431d91f25780000               = '0168a431d91f25780000';
+const _Player_0178f3760227c2853e6f             = '0178f3760227c2853e6f';
 const _Plus_01621f754a1c01a72d8e               = '01621f754a1c01a72d8e';
 const _Predefined_input_Control_Flow_of_Interaction_Event_Definition_016ac63808535703691c = '016ac63808535703691c';
 const _Property_ff021000000000000005           = 'ff021000000000000005';
@@ -188,6 +189,8 @@ const _instance_of_Get_UI_Property_0178f4b9c2bea6a4cea5 = db.assignTag('0178f4b9
 const _instance_of_Pipe_0178f4b9c9fdbfee8500        = db.assignTag('0178f4b9c9fdbfee8500');
 const _instance_of_Pipe_0178f4baa82c9ceb5d4c        = db.assignTag('0178f4baa82c9ceb5d4c');
 const _instance_of_Pipe_0178f4bcbcd5b66e94ca        = db.assignTag('0178f4bcbcd5b66e94ca');
+const _instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11 = db.assignTag('0178f8f0cdcbb5ffbe11');
+const _instance_of_Composer_Property_0178f8f0cdcbc25dbab6 = db.assignTag('0178f8f0cdcbc25dbab6');
 
 
 //==========================================================
@@ -209,6 +212,7 @@ const _First_Touch_0168e1416ecd8eced7d3        = '0168e1416ecd8eced7d3';
 const _in_low_bound_0178f3a89e08e644cb84       = '0178f3a89e08e644cb84';
 const _in_up_bound_0178f3a8b3a2c77aad7d        = '0178f3a8b3a2c77aad7d';
 const _input_value_0178f3a8747cf31cb3dc        = '0178f3a8747cf31cb3dc';
+const _instanceOfBusinessModelInlineEditorInstance_016fc353e828dfdae63a = '016fc353e828dfdae63a';
 const _label_016324e735d1b86b4147              = '016324e735d1b86b4147';
 const _numberInlineEditorInstance_01611e3015371b459cf5 = '01611e3015371b459cf5';
 const _out_low_bound_0178f3a8c649bde78a7f      = '0178f3a8c649bde78a7f';
@@ -245,6 +249,12 @@ db.newInstance(_instance_of_Property__TouchPad____SliderValue_0178f3afce85babaf3
         'v'                                     :1
     })
 .done();
+db.newInstance(_instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11, _Property_ff021000000000000005)
+    .setNameOrProperties({
+        [_Object_name_ff023000000000000011]     :'CurrentPlayer',
+        'v'                                     :1
+    })
+.done();
 // :_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553
 db.newModel(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, 'TouchPad') // tag and name of the model 
     .extends(_Visual_Component_01664466071746f5e167).setModelTag(_Visual_Component_0166446c1f124f078a5f) 
@@ -260,6 +270,7 @@ db.updateInstance(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22
         'v'                                     :2
     });
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_propertyRel_ff02200000000000000c          , _instance_of_Property__TouchPad____SliderValue_0178f3afce85babaf381);
+db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_propertyRel_ff02200000000000000c          , _instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11);
 db.setRootInstanceTag(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553);
 // :_instance_of_Absolute_0178f39a58fd17c14684
 db.newInstance(_instance_of_Absolute_0178f39a58fd17c14684)
@@ -1220,11 +1231,24 @@ db.newInstance(_instance_of_Pipe_0178f4bcbcd5b66e94ca)
         'v'                                     :1
     })
     .done();
+// :_instance_of_Composer_Property_0178f8f0cdcbc25dbab6
+db.newInstance(_instance_of_Composer_Property_0178f8f0cdcbc25dbab6)
+    .setModelTag(_Composer_Property_016d1bb681929c2cc3f0) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553)
+    .setNameOrProperties({
+        [_Composer_Property_computable_016d1bb681929c2cc3f3]:true,
+        'v'                                     :1
+    })
+    .done();
 db.updateInstance(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, {
         [_Group_Definition_Layout_016be61ab921cb3bdef9]:db.createReference(_instance_of_Absolute_0178f39a58fd17c14684),
         'v'                                     :3
     });
 db.assign(_instance_of_Property__TouchPad____SliderValue_0178f3afce85babaf381, _Property_typeRel_ff02200000000000000d            , _Number_ff021000000000000013                      );
+db.assign(_instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11, _Property_typeRel_ff02200000000000000d            , _Player_0178f3760227c2853e6f                      );
 db.assign(_instance_of_Get_Touch_Event_Attributes_0178f3a6ee0de6a60bbe, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f3a6ee0da325993e);
 db.assign(_instance_of_Get_Touch_Event_Detail_Attributes_0178f3a71096028211b5, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f3a71096e7b50f5a);
 db.assign(_instance_of_Get_UI_Property_0178f3a75472bc79e81d , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f3a75472b5b399c2);
@@ -1453,14 +1477,19 @@ db.assign(_instance_of_Function_model____New_Slider_Y_0178f448e1af44e9e2ce, _Run
 db.assign(_instance_of_Function_model____New_Slider_Y_0178f448e1af44e9e2ce, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_UI_Property_0178f448f909944603a7 );
 db.assign(_instance_of_Function_model____New_Slider_Y_0178f448e1af44e9e2ce, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Plus_0178f449064921483baa            );
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Renderable_Definition_themable_property_016951f802614c4350bf, _instance_of_Property__TouchPad____SliderValue_0178f3afce85babaf381);
+db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Renderable_Definition_themable_property_016951f802614c4350bf, _instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11);
 db.assign(_instance_of_Absolute_0178f39a58fd17c14684        , _Delegate_Delegator_Relation_016c3cb7742ec9309e0b , _instance_of_Rectangle____New_Rectangle_0178f442b40e2431402e);
 db.assign(_instance_of_Absolute_0178f39a58fd17c14684        , _Delegate_Delegator_Relation_016c3cb7742ec9309e0b , _instance_of_Slider____New_Slider_0178f443dafa6ffd6f09);
 db.assign(_instance_of_Composer_Property_0178f3afce86610e6ed1, _Composer_Property_Category_016d1bb681929c2cc3f4  , _Custom_properties_0164188f5cc0c205bc06           );
+db.assign(_instance_of_Composer_Property_0178f8f0cdcbc25dbab6, _Composer_Property_Category_016d1bb681929c2cc3f4  , _Custom_properties_0164188f5cc0c205bc06           );
 db.assign(_instance_of_Composer_Property_0178f3afce86610e6ed1, _Composer_Property_Property_016d1bb681929c2cc3f5  , _instance_of_Property__TouchPad____SliderValue_0178f3afce85babaf381);
+db.assign(_instance_of_Composer_Property_0178f8f0cdcbc25dbab6, _Composer_Property_Property_016d1bb681929c2cc3f5  , _instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11);
 db.assign(_instance_of_Composer_Property_0178f3afce86610e6ed1, _Composer_Property_InlineEditor_016d1bb681929c2cc3f6, _numberInlineEditorInstance_01611e3015371b459cf5  );
+db.assign(_instance_of_Composer_Property_0178f8f0cdcbc25dbab6, _Composer_Property_InlineEditor_016d1bb681929c2cc3f6, _instanceOfBusinessModelInlineEditorInstance_016fc353e828dfdae63a);
 db.assign(_instance_of_TouchPad_On_Load_0178f3a5f0f10ee239fc, _Runnable_Anonymous_definition_01756a18d4921c103111, _instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3);
 db.assign(_instance_of_New_Slider_Y_0178f448e1af131212a3    , _Runnable_Anonymous_definition_01756a18d4921c103111, _instance_of_Function_model____New_Slider_Y_0178f448e1af44e9e2ce);
 db.assign(_instance_of_Property__TouchPad____SliderValue_0178f3afce85babaf381, _Object_gooRel_ff022000000000000003               , _instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553);
+db.assign(_instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11, _Object_gooRel_ff022000000000000003               , _instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553);
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_containsRel_ff02200000000000000f          , _instance_of_TouchPad_On_Load_0178f3a5f0f10ee239fc);
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f3a5f0f13e9eace3            );
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_containsRel_ff02200000000000000f          , _instance_of_Property__TouchPad____SliderValue_0178f3afce85babaf381);
@@ -1470,6 +1499,7 @@ db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, 
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f448a442621fbc76            );
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f448cfff6ceb6f38            );
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f4494f5fc7e3c3e6            );
+db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_containsRel_ff02200000000000000f          , _instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11);
 db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f3a5f0f1ed7a9684);
 db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Get_Touch_Event_Attributes_0178f3a6ee0de6a60bbe);
 db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Get_Touch_Event_Detail_Attributes_0178f3a71096028211b5);
@@ -1555,6 +1585,7 @@ db.assign(_instance_of_Ascender_0178f448e1b06f3c22f5        , _Object_containsRe
 db.assign(_instance_of_Get_UI_Property_0178f448f909944603a7 , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f448f90a9121e97a);
 db.assign(_instance_of_Plus_0178f449064921483baa            , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f449064ac06dfe5a);
 db.assign(_instance_of_Get_UI_Property_0178f4b9c2bea6a4cea5 , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f4b9c2be99b5d38a);
+db.assign(_instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11, _Object_containsRel_ff02200000000000000f          , _instance_of_Composer_Property_0178f8f0cdcbc25dbab6);
 db.assignOptional(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_gooRel_ff022000000000000003, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _GOO_parentGooRel_ff02200000000000000u, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_RacketApp_0178f39b0bbbad11abdd, _Object_containsRel_ff02200000000000000f, _instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553);
