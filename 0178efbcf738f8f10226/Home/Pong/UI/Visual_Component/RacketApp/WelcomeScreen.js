@@ -26,11 +26,15 @@ const _Function_Metadata_01621f6ab29d770a3bba  = '01621f6ab29d770a3bba';
 const _Game_0178f3776a851b19e18d               = '0178f3776a851b19e18d';
 const _Get_Object_016324f5cf507031f6a3         = '016324f5cf507031f6a3';
 const _Get_Parameter_0166e45d472c667c91a0      = '0166e45d472c667c91a0';
+const _Get_Size_of_List_016372362aac07c772f3   = '016372362aac07c772f3';
 const _Get_UI_Property_0162de7dd5abdc9dec7f    = '0162de7dd5abdc9dec7f';
+const _GetUserInGame_0178f3e9195ce68bad00      = '0178f3e9195ce68bad00';
 const _Group_Component_016c0aa2e71625f454c9    = '016c0aa2e71625f454c9';
 const _Group_Definition_016be61ab63fb8a838ee   = '016be61ab63fb8a838ee';
 const _Horizontal_016c2464cd56eb1d285e         = '016c2464cd56eb1d285e';
+const _If_01633eaa139d1f5e2fc4                 = '01633eaa139d1f5e2fc4';
 const _Interaction_Event_Definition_0169b6876a03f139d50a = '0169b6876a03f139d50a';
+const _Is_Greater_Than_01633eddc42e7ea58ee6    = '01633eddc42e7ea58ee6';
 const _Label_01612df39109cf82fa8d              = '01612df39109cf82fa8d';
 const _LengthInPercent_016f8f8416f002ae2b00    = '016f8f8416f002ae2b00';
 const _Log_016324e7338307c3ed94                = '016324e7338307c3ed94';
@@ -259,12 +263,30 @@ const _instance_of_Runnable_Input____New_input_0178f8c775d0d29e9065 = db.assignT
 const _instance_of_Function_Metadata_0178f8c79ba95bdc0401 = db.assignTag('0178f8c79ba95bdc0401');
 const _instance_of_Get_UI_Property_0178f8c79ba964fd7620 = db.assignTag('0178f8c79ba964fd7620');
 const _instance_of_Pipe_0178f8c79ba9d4635bd6        = db.assignTag('0178f8c79ba9d4635bd6');
+const _instance_of_Function_Metadata_0178f8c9439c6d8aacb6 = db.assignTag('0178f8c9439c6d8aacb6');
+const _instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88 = db.assignTag('0178f8c9439cba746d88');
+const _instance_of_Pipe_0178f8c954abdeff703d        = db.assignTag('0178f8c954abdeff703d');
+const _instance_of_Function_Metadata_0178f8c982977053fc09 = db.assignTag('0178f8c982977053fc09');
+const _instance_of_Get_Size_of_List_0178f8c98297775d0918 = db.assignTag('0178f8c98297775d0918');
+const _instance_of_Pipe_0178f8c9dc1df3118ffb        = db.assignTag('0178f8c9dc1df3118ffb');
+const _instance_of_Function_Metadata_0178f8ca04c13e399cff = db.assignTag('0178f8ca04c13e399cff');
+const _instance_of_If_0178f8ca04c18c12e3f5          = db.assignTag('0178f8ca04c18c12e3f5');
+const _instance_of_Function_Metadata_0178f8ca2aef1f03bddd = db.assignTag('0178f8ca2aef1f03bddd');
+const _instance_of_Pipe_0178f8ca2aef7eba71b2        = db.assignTag('0178f8ca2aef7eba71b2');
+const _instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d = db.assignTag('0178f8ca2aefb8916d1d');
+const _instance_of_Pipe_0178f8ca4189df0d1fe6        = db.assignTag('0178f8ca4189df0d1fe6');
+const _instance_of_Pipe_0178f8ca83886969aa27        = db.assignTag('0178f8ca83886969aa27');
+const _instance_of_Pipe_0178f8caa6218b9f2219        = db.assignTag('0178f8caa6218b9f2219');
 
 
 //==========================================================
 //========= EXTERNAL REFERENCES ============================
 //==========================================================
 const _$_37_$_016f8f86914e30ad366c             = '016f8f86914e30ad366c';
+const _a_$_62_$_b_01633eddcb37df6ec5af         = '01633eddcb37df6ec5af';
+const _a_01633eddc5f1c31462a9                  = '01633eddc5f1c31462a9';
+const _b_01633eddc72c178e7751                  = '01633eddc72c178e7751';
+const _Condition_01633eaa172b89783ceb          = '01633eaa172b89783ceb';
 const _containerLength_016f8ab7aa1eec9b9f0a    = '016f8ab7aa1eec9b9f0a';
 const _containerLength_016f8f84669b9b268701    = '016f8f84669b9b268701';
 const _Control_Flow_0162d2938caead968805       = '0162d2938caead968805';
@@ -274,9 +296,11 @@ const _Control_Flow_0178f44d60dce1c252ca       = '0178f44d60dce1c252ca';
 const _Control_Flow_0178f454977448095fb0       = '0178f454977448095fb0';
 const _Custom_properties_0164188f5cc0c205bc06  = '0164188f5cc0c205bc06';
 const _elementLength_016f8af383a2db284c53      = '016f8af383a2db284c53';
+const _Game_0178f3e97d716c57a781               = '0178f3e97d716c57a781';
 const _Game_0178f45539faf1ba43f1               = '0178f45539faf1ba43f1';
 const _instanceOfBusinessModelInlineEditorInstance_016fc353e828dfdae63a = '016fc353e828dfdae63a';
 const _label_016324e735d1b86b4147              = '016324e735d1b86b4147';
+const _List_016372362d0280ad8b80               = '016372362d0280ad8b80';
 const _Name_0166e45d4c71b37524d8               = '0166e45d4c71b37524d8';
 const _Object_016324f5d1306af8afa0             = '016324f5d1306af8afa0';
 const _object_016778aca26c6df893e7             = '016778aca26c6df893e7';
@@ -287,10 +311,13 @@ const _RacketApp_0178f39b0bbbad11abdd          = '0178f39b0bbbad11abdd';
 const _result_016f8aa140e84a037378             = '016f8aa140e84a037378';
 const _result_016f8f7c155f88fa65ea             = '016f8f7c155f88fa65ea';
 const _result_016f8f8474fbb8fb0fe8             = '016f8f8474fbb8fb0fe8';
+const _Size_016372362df8c2b75160               = '016372362df8c2b75160';
+const _Strictly_01633eddc8760f3f0c6c           = '01633eddc8760f3f0c6c';
 const _stringInlineEditorInstance_01611e3015371b459cf7 = '01611e3015371b459cf7';
 const _Tag_016324f5d04f06a4860a                = '016324f5d04f06a4860a';
 const _UI_Property_0162d293ab6f65c86c52        = '0162d293ab6f65c86c52';
 const _UI_Property_0162de7e041b00292ccd        = '0162de7e041b00292ccd';
+const _UsersList_0178f3e9df9c15bf8b69          = '0178f3e9df9c15bf8b69';
 const _Value_0162d293e8f59ad91a16              = '0162d293e8f59ad91a16';
 const _Value_0162de8176947619c15f              = '0162de8176947619c15f';
 const _value_016324e734c079126513              = '016324e734c079126513';
@@ -1752,13 +1779,161 @@ db.newInstance(_instance_of_Function_Metadata_0178f8c79ba95bdc0401)
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Get_UI_Property_0178f8c79ba964fd7620)
     .setNameOrProperties({
-        [_Function_Metadata_x_01621f6ab58c2f884654]:19723,
-        [_Function_Metadata_y_01621f6ab6ac89348f20]:19904,
+        [_Function_Metadata_x_01621f6ab58c2f884654]:19532,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:19718,
         'v'                                     :1
     })
     .done();
 // :_instance_of_Pipe_0178f8c79ba9d4635bd6
 db.newInstance(_instance_of_Pipe_0178f8c79ba9d4635bd6)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// >>goo_dep::_instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88
+db.newInstance(_instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88)
+    .setModelTag(_GetUserInGame_0178f3e9195ce68bad00) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        [_Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001]:'private',
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Function_Metadata_0178f8c9439c6d8aacb6
+db.newInstance(_instance_of_Function_Metadata_0178f8c9439c6d8aacb6)
+    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88)
+    .setNameOrProperties({
+        [_Function_Metadata_x_01621f6ab58c2f884654]:19775,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:19743,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8c954abdeff703d
+db.newInstance(_instance_of_Pipe_0178f8c954abdeff703d)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// >>goo_dep::_instance_of_Get_Size_of_List_0178f8c98297775d0918
+db.newInstance(_instance_of_Get_Size_of_List_0178f8c98297775d0918)
+    .setModelTag(_Get_Size_of_List_016372362aac07c772f3) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        [_Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001]:'private',
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Function_Metadata_0178f8c982977053fc09
+db.newInstance(_instance_of_Function_Metadata_0178f8c982977053fc09)
+    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Get_Size_of_List_0178f8c98297775d0918)
+    .setNameOrProperties({
+        [_Function_Metadata_x_01621f6ab58c2f884654]:20035,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:19756,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8c9dc1df3118ffb
+db.newInstance(_instance_of_Pipe_0178f8c9dc1df3118ffb)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// >>goo_dep::_instance_of_If_0178f8ca04c18c12e3f5
+db.newInstance(_instance_of_If_0178f8ca04c18c12e3f5)
+    .setModelTag(_If_01633eaa139d1f5e2fc4) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        [_Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001]:'private',
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Function_Metadata_0178f8ca04c13e399cff
+db.newInstance(_instance_of_Function_Metadata_0178f8ca04c13e399cff)
+    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_If_0178f8ca04c18c12e3f5)
+    .setNameOrProperties({
+        [_Function_Metadata_x_01621f6ab58c2f884654]:20573,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:19868,
+        'v'                                     :1
+    })
+    .done();
+// >>goo_dep::_instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d
+db.newInstance(_instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d)
+    .setModelTag(_Is_Greater_Than_01633eddc42e7ea58ee6) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        [_Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001]:'private',
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Function_Metadata_0178f8ca2aef1f03bddd
+db.newInstance(_instance_of_Function_Metadata_0178f8ca2aef1f03bddd)
+    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d)
+    .setNameOrProperties({
+        [_Function_Metadata_x_01621f6ab58c2f884654]:20307,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:19835,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8ca2aef7eba71b2
+db.newInstance(_instance_of_Pipe_0178f8ca2aef7eba71b2)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        [_Pipe_Source_Value_0168a431d91f25780001]:true,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8ca4189df0d1fe6
+db.newInstance(_instance_of_Pipe_0178f8ca4189df0d1fe6)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        [_Pipe_Source_Value_0168a431d91f25780001]:6,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8ca83886969aa27
+db.newInstance(_instance_of_Pipe_0178f8ca83886969aa27)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8caa6218b9f2219
+db.newInstance(_instance_of_Pipe_0178f8caa6218b9f2219)
     .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df)
@@ -1796,6 +1971,10 @@ db.assign(_instance_of_Log_0178f4b46751b616159a             , _Brick_Metadata_$_
 db.assign(_instance_of_Log_0178f4b46c45b85c3314             , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f4b46c45a1aecdc6);
 db.assign(_instance_of_Log_0178f4d7cedd19d5e63c             , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f4d7cedebb47c773);
 db.assign(_instance_of_Get_UI_Property_0178f8c79ba964fd7620 , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8c79ba95bdc0401);
+db.assign(_instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8c9439c6d8aacb6);
+db.assign(_instance_of_Get_Size_of_List_0178f8c98297775d0918, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8c982977053fc09);
+db.assign(_instance_of_If_0178f8ca04c18c12e3f5              , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8ca04c13e399cff);
+db.assign(_instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8ca2aef1f03bddd);
 db.assign(_instance_of_Ascender_0178f3f21cf7bdee73bf        , _Ascender_Input_01621fb84e32000000a1              , _instance_of_Runnable_Input____New_input_0178f3f21cf7f2b671f6);
 db.assign(_instance_of_Ascender_0178f8c775d05141e182        , _Ascender_Input_01621fb84e32000000a1              , _instance_of_Runnable_Input____New_input_0178f8c775d0d29e9065);
 db.assign(_instance_of_Ascender_0178f3f21cf7bdee73bf        , _Ascender_Upward_01621fb84e32000000a2             , _instance_of_Runnable_Output____Game_0178f3f21cf7b454a738);
@@ -1869,6 +2048,10 @@ db.assign(_instance_of_Pipe_0178f8c44a33972394fa            , _Pipe_Source_Scope
 db.assign(_instance_of_Pipe_0178f8c44a33b4570177            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df);
 db.assign(_instance_of_Pipe_0178f8c775d064c305ce            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_New_More_Than6_Hidden_0178f8c775cf212d8083);
 db.assign(_instance_of_Pipe_0178f8c79ba9d4635bd6            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df);
+db.assign(_instance_of_Pipe_0178f8c954abdeff703d            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Get_UI_Property_0178f8c79ba964fd7620 );
+db.assign(_instance_of_Pipe_0178f8c9dc1df3118ffb            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88);
+db.assign(_instance_of_Pipe_0178f8ca83886969aa27            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Get_Size_of_List_0178f8c98297775d0918);
+db.assign(_instance_of_Pipe_0178f8caa6218b9f2219            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d );
 db.assign(_instance_of_Pipe_0178f3bf13486fcf5839            , _Pipe_Source_Output_0168a431d91f25780003          , _instance_of_Runnable_Output____New_output_0178f3b982d23dcf2a0a);
 db.assign(_instance_of_Pipe_0178f3bf1b0fc130758a            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0166e45ef58615222ffd                       );
 db.assign(_instance_of_Pipe_0178f3c7213ec97bd0dc            , _Pipe_Source_Output_0168a431d91f25780003          , _result_016f8aa140e84a037378                      );
@@ -1901,6 +2084,10 @@ db.assign(_instance_of_Pipe_0178f8c43210ece5210c            , _Pipe_Source_Outpu
 db.assign(_instance_of_Pipe_0178f8c440510e773e04            , _Pipe_Source_Output_0168a431d91f25780003          , _result_016f8f8474fbb8fb0fe8                      );
 db.assign(_instance_of_Pipe_0178f8c44a33972394fa            , _Pipe_Source_Output_0168a431d91f25780003          , _result_016f8f8474fbb8fb0fe8                      );
 db.assign(_instance_of_Pipe_0178f8c775d064c305ce            , _Pipe_Source_Output_0168a431d91f25780003          , _instance_of_Runnable_Output____Hidden_0178f8c775d0b1660f5d);
+db.assign(_instance_of_Pipe_0178f8c954abdeff703d            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0162de8176947619c15f                       );
+db.assign(_instance_of_Pipe_0178f8c9dc1df3118ffb            , _Pipe_Source_Output_0168a431d91f25780003          , _UsersList_0178f3e9df9c15bf8b69                   );
+db.assign(_instance_of_Pipe_0178f8ca83886969aa27            , _Pipe_Source_Output_0168a431d91f25780003          , _Size_016372362df8c2b75160                        );
+db.assign(_instance_of_Pipe_0178f8caa6218b9f2219            , _Pipe_Source_Output_0168a431d91f25780003          , _a_$_62_$_b_01633eddcb37df6ec5af                  );
 db.assign(_instance_of_Pipe_0178f3b982d20e5ea00d            , _Pipe_Source_Property_0168a431d91f25780004        , _Runnable_Definition_On_Load_0166446c1f128ebc903a );
 db.assign(_instance_of_Pipe_0178f3befa7be75b9e22            , _Pipe_Source_Property_0168a431d91f25780004        , _instance_of_Property__WelcomeScreen____tagGame_0178f3be316ee4bece6d);
 db.assign(_instance_of_Pipe_0178f3c7213e06f1e0f6            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Width_01611d99ec0553b5926e            );
@@ -1994,6 +2181,12 @@ db.assign(_instance_of_Pipe_0178f8c44a3398adb018            , _Pipe_Destination_
 db.assign(_instance_of_Pipe_0178f8c44a33b4570177            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_LengthInPercent_0178f8c44a33038d73f7 );
 db.assign(_instance_of_Pipe_0178f8c775d064c305ce            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_More_Than6____New_More_Than6_0178f8c411d41f557dd8);
 db.assign(_instance_of_Pipe_0178f8c79ba9d4635bd6            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Get_UI_Property_0178f8c79ba964fd7620 );
+db.assign(_instance_of_Pipe_0178f8c954abdeff703d            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88);
+db.assign(_instance_of_Pipe_0178f8c9dc1df3118ffb            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Get_Size_of_List_0178f8c98297775d0918);
+db.assign(_instance_of_Pipe_0178f8ca2aef7eba71b2            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d );
+db.assign(_instance_of_Pipe_0178f8ca4189df0d1fe6            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d );
+db.assign(_instance_of_Pipe_0178f8ca83886969aa27            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d );
+db.assign(_instance_of_Pipe_0178f8caa6218b9f2219            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_If_0178f8ca04c18c12e3f5              );
 db.assign(_instance_of_Pipe_0178f3b982d20e5ea00d            , _Pipe_Destination_Input_0168a431d91f2578000b      , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f3b982d2f9ae87a3);
 db.assign(_instance_of_Pipe_0178f3bb8b81c451b42a            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Name_0166e45d4c71b37524d8                        );
 db.assign(_instance_of_Pipe_0178f3befa7be75b9e22            , _Pipe_Destination_Input_0168a431d91f2578000b      , _UI_Property_0162d293ab6f65c86c52                 );
@@ -2047,6 +2240,12 @@ db.assign(_instance_of_Pipe_0178f8c44051966cdb04            , _Pipe_Destination_
 db.assign(_instance_of_Pipe_0178f8c44a3398adb018            , _Pipe_Destination_Input_0168a431d91f2578000b      , _$_37_$_016f8f86914e30ad366c                      );
 db.assign(_instance_of_Pipe_0178f8c44a33b4570177            , _Pipe_Destination_Input_0168a431d91f2578000b      , _containerLength_016f8f84669b9b268701             );
 db.assign(_instance_of_Pipe_0178f8c79ba9d4635bd6            , _Pipe_Destination_Input_0168a431d91f2578000b      , _UI_Property_0162de7e041b00292ccd                 );
+db.assign(_instance_of_Pipe_0178f8c954abdeff703d            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Game_0178f3e97d716c57a781                        );
+db.assign(_instance_of_Pipe_0178f8c9dc1df3118ffb            , _Pipe_Destination_Input_0168a431d91f2578000b      , _List_016372362d0280ad8b80                        );
+db.assign(_instance_of_Pipe_0178f8ca2aef7eba71b2            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Strictly_01633eddc8760f3f0c6c                    );
+db.assign(_instance_of_Pipe_0178f8ca4189df0d1fe6            , _Pipe_Destination_Input_0168a431d91f2578000b      , _b_01633eddc72c178e7751                           );
+db.assign(_instance_of_Pipe_0178f8ca83886969aa27            , _Pipe_Destination_Input_0168a431d91f2578000b      , _a_01633eddc5f1c31462a9                           );
+db.assign(_instance_of_Pipe_0178f8caa6218b9f2219            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Condition_01633eaa172b89783ceb                   );
 db.assign(_instance_of_Pipe_0178f3c7213ec97bd0dc            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_X_01611d99243ad989b91b                 );
 db.assign(_instance_of_Pipe_0178f3c841ea62221249            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_X_01611d99243ad989b91b                 );
 db.assign(_instance_of_Pipe_0178f3c970c933cfd0fc            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_X_01611d99243ad989b91b                 );
@@ -2098,6 +2297,10 @@ db.assign(_instance_of_LengthInPercent_0178f8c440504404f0f2 , _Runnable_Definiti
 db.assign(_instance_of_LengthInPercent_0178f8c44a33038d73f7 , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _LengthInPercent_016f8f8416f002ae2b00             );
 db.assign(_instance_of_New_More_Than6_Hidden_0178f8c775cf212d8083, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df);
 db.assign(_instance_of_Get_UI_Property_0178f8c79ba964fd7620 , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Get_UI_Property_0162de7dd5abdc9dec7f             );
+db.assign(_instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _GetUserInGame_0178f3e9195ce68bad00               );
+db.assign(_instance_of_Get_Size_of_List_0178f8c98297775d0918, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Get_Size_of_List_016372362aac07c772f3            );
+db.assign(_instance_of_If_0178f8ca04c18c12e3f5              , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _If_01633eaa139d1f5e2fc4                          );
+db.assign(_instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Is_Greater_Than_01633eddc42e7ea58ee6             );
 db.assign(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_WelcomeScreen_On_Load_0178f3b982d235269f93);
 db.assign(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Label____New_Label_0178f3c4ec7bc87a0a7b);
 db.assign(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Button____New_Button_0178f3c657635142cb62);
@@ -2138,6 +2341,10 @@ db.assign(_instance_of_Function_model____New_Standings_Game_0178f3f21cf6fe79e40a
 db.assign(_instance_of_Function_model____New_Standings_Game_0178f3f21cf6fe79e40a, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_UI_Property_0178f3f2354c7cb31982 );
 db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Ascender_0178f8c775d05141e182        );
 db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_UI_Property_0178f8c79ba964fd7620 );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88);
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_Size_of_List_0178f8c98297775d0918);
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_If_0178f8ca04c18c12e3f5              );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d );
 db.assign(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Renderable_Definition_themable_property_016951f802614c4350bf, _instance_of_Property__WelcomeScreen____tagGame_0178f3be316ee4bece6d);
 db.assign(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Renderable_Definition_themable_property_016951f802614c4350bf, _instance_of_Property__WelcomeScreen____GameObject_0178f3eeb41f7b7b88ee);
 db.assign(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Renderable_Definition_themable_property_016951f802614c4350bf, _instance_of_Property__WelcomeScreen____Player_0178f452d7481f747885);
@@ -2304,10 +2511,24 @@ db.assign(_instance_of_More_Than6____New_More_Than6_0178f8c411d41f557dd8, _Objec
 db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Output____Hidden_0178f8c775d0b1660f5d);
 db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Get_UI_Property_0178f8c79ba964fd7620 );
 db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8c79ba9d4635bd6            );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88);
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8c954abdeff703d            );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Get_Size_of_List_0178f8c98297775d0918);
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8c9dc1df3118ffb            );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_If_0178f8ca04c18c12e3f5              );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8ca2aef7eba71b2            );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8ca4189df0d1fe6            );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8ca83886969aa27            );
+db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8caa6218b9f2219            );
 db.assign(_instance_of_New_More_Than6_Hidden_0178f8c775cf212d8083, _Object_containsRel_ff02200000000000000f          , _instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df);
 db.assign(_instance_of_Ascender_0178f8c775d05141e182        , _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Output____Hidden_0178f8c775d0b1660f5d);
 db.assign(_instance_of_Ascender_0178f8c775d05141e182        , _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Input____New_input_0178f8c775d0d29e9065);
 db.assign(_instance_of_Get_UI_Property_0178f8c79ba964fd7620 , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f8c79ba95bdc0401);
+db.assign(_instance_of_GetUserInGame____GetUserInGame_0178f8c9439cba746d88, _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f8c9439c6d8aacb6);
+db.assign(_instance_of_Get_Size_of_List_0178f8c98297775d0918, _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f8c982977053fc09);
+db.assign(_instance_of_If_0178f8ca04c18c12e3f5              , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f8ca04c13e399cff);
+db.assign(_instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f8ca2aef1f03bddd);
 db.assignOptional(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Object_gooRel_ff022000000000000003, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _GOO_parentGooRel_ff02200000000000000u, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_RacketApp_0178f39b0bbbad11abdd, _Object_containsRel_ff02200000000000000f, _instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df);
