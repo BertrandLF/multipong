@@ -191,6 +191,11 @@ const _instance_of_Pipe_0178f4baa82c9ceb5d4c        = db.assignTag('0178f4baa82c
 const _instance_of_Pipe_0178f4bcbcd5b66e94ca        = db.assignTag('0178f4bcbcd5b66e94ca');
 const _instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11 = db.assignTag('0178f8f0cdcbb5ffbe11');
 const _instance_of_Composer_Property_0178f8f0cdcbc25dbab6 = db.assignTag('0178f8f0cdcbc25dbab6');
+const _instance_of_Set_UI_Property_0178f9016322dd452324 = db.assignTag('0178f9016322dd452324');
+const _instance_of_Function_Metadata_0178f90163233e737c34 = db.assignTag('0178f90163233e737c34');
+const _instance_of_Pipe_0178f90163238f5536d8        = db.assignTag('0178f90163238f5536d8');
+const _instance_of_Pipe_0178f901dcbba7f0916b        = db.assignTag('0178f901dcbba7f0916b');
+const _instance_of_Pipe_0178f901e5e4324124a2        = db.assignTag('0178f901e5e4324124a2');
 
 
 //==========================================================
@@ -203,6 +208,7 @@ const _b_01621f754a1c290a6d5b                  = '01621f754a1c290a6d5b';
 const _containerLength_016f8ab7aa1eec9b9f0a    = '016f8ab7aa1eec9b9f0a';
 const _containerLength_016f8f84669b9b268701    = '016f8f84669b9b268701';
 const _Control_Flow_0162d2938caead968805       = '0162d2938caead968805';
+const _Control_Flow_0162d2938cafad968805       = '0162d2938cafad968805';
 const _Control_flow_016682d3c24de5d614e6       = '016682d3c24de5d614e6';
 const _Custom_properties_0164188f5cc0c205bc06  = '0164188f5cc0c205bc06';
 const _detail_0168e144865dd481e2ae             = '0168e144865dd481e2ae';
@@ -1243,6 +1249,55 @@ db.newInstance(_instance_of_Composer_Property_0178f8f0cdcbc25dbab6)
         'v'                                     :1
     })
     .done();
+// :_instance_of_Set_UI_Property_0178f9016322dd452324
+db.newInstance(_instance_of_Set_UI_Property_0178f9016322dd452324)
+    .setModelTag(_Set_UI_Property_0162d2938cadad968805) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Function_Metadata_0178f90163233e737c34
+db.newInstance(_instance_of_Function_Metadata_0178f90163233e737c34)
+    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Set_UI_Property_0178f9016322dd452324)
+    .setNameOrProperties({
+        [_Function_Metadata_x_01621f6ab58c2f884654]:21706,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:20155,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f90163238f5536d8
+db.newInstance(_instance_of_Pipe_0178f90163238f5536d8)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f901dcbba7f0916b
+db.newInstance(_instance_of_Pipe_0178f901dcbba7f0916b)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f901e5e4324124a2
+db.newInstance(_instance_of_Pipe_0178f901e5e4324124a2)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
 db.updateInstance(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, {
         [_Group_Definition_Layout_016be61ab921cb3bdef9]:db.createReference(_instance_of_Absolute_0178f39a58fd17c14684),
         'v'                                     :3
@@ -1264,6 +1319,7 @@ db.assign(_instance_of_RangeMapping____RangeMapping_0178f444a7a072dfb106, _Brick
 db.assign(_instance_of_Get_UI_Property_0178f448f909944603a7 , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f448f90a9121e97a);
 db.assign(_instance_of_Plus_0178f449064921483baa            , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f449064ac06dfe5a);
 db.assign(_instance_of_Get_UI_Property_0178f4b9c2bea6a4cea5 , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f4b9c2be99b5d38a);
+db.assign(_instance_of_Set_UI_Property_0178f9016322dd452324 , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f90163233e737c34);
 db.assign(_instance_of_Ascender_0178f448e1b06f3c22f5        , _Ascender_Input_01621fb84e32000000a1              , _instance_of_Runnable_Input____New_input_0178f448e1b0bb2159a5);
 db.assign(_instance_of_Ascender_0178f448e1b06f3c22f5        , _Ascender_Upward_01621fb84e32000000a2             , _instance_of_Runnable_Output____Y_0178f448e1b006e7c2a2);
 db.assign(_instance_of_Descender_0178f3a5f0f12623c9f6       , _Descender_Downward_01621fb84e32000000d1          , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f3a5f0f1ed7a9684);
@@ -1305,6 +1361,9 @@ db.assign(_instance_of_Pipe_0178f4b9c2be77955891            , _Pipe_Source_Scope
 db.assign(_instance_of_Pipe_0178f4b9c9fdbfee8500            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Get_UI_Property_0178f4b9c2bea6a4cea5 );
 db.assign(_instance_of_Pipe_0178f4baa82c9ceb5d4c            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_RangeMapping____RangeMapping_0178f3abc2e485a15a41);
 db.assign(_instance_of_Pipe_0178f4bcbcd5b66e94ca            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_RangeMapping____RangeMapping_0178f444a7a072dfb106);
+db.assign(_instance_of_Pipe_0178f90163238f5536d8            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553);
+db.assign(_instance_of_Pipe_0178f901dcbba7f0916b            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_OnValue_0178f3b214c6286c7b23         );
+db.assign(_instance_of_Pipe_0178f901e5e4324124a2            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Set_UI_Property_0178f3b29f4f6f44b62e );
 db.assign(_instance_of_Pipe_0178f3aea1532dafb629            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0162de8176947619c15f                       );
 db.assign(_instance_of_Pipe_0178f3af3f1ef881a72b            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0162de8176947619c15f                       );
 db.assign(_instance_of_Pipe_0178f3b2c71b9fe084f4            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_016682d39e5e6e49bddf                       );
@@ -1323,6 +1382,8 @@ db.assign(_instance_of_Pipe_0178f48053fd3e437566            , _Pipe_Source_Outpu
 db.assign(_instance_of_Pipe_0178f4b9c9fdbfee8500            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0162de8176947619c15f                       );
 db.assign(_instance_of_Pipe_0178f4baa82c9ceb5d4c            , _Pipe_Source_Output_0168a431d91f25780003          , _output__0178f3aac4e47b87b96a                     );
 db.assign(_instance_of_Pipe_0178f4bcbcd5b66e94ca            , _Pipe_Source_Output_0168a431d91f25780003          , _output__0178f3aac4e47b87b96a                     );
+db.assign(_instance_of_Pipe_0178f901dcbba7f0916b            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_016682d39e5e6e49bddf                       );
+db.assign(_instance_of_Pipe_0178f901e5e4324124a2            , _Pipe_Source_Output_0168a431d91f25780003          , _Control_Flow_0162d2938cafad968805                );
 db.assign(_instance_of_Pipe_0178f3a5f0f13e9eace3            , _Pipe_Source_Property_0168a431d91f25780004        , _Runnable_Definition_On_Load_0166446c1f128ebc903a );
 db.assign(_instance_of_Pipe_0178f3a75472805b6713            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Width_01611d99ec0553b5926e            );
 db.assign(_instance_of_Pipe_0178f3a77073da224009            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Height_01611d9a0452a179c68f           );
@@ -1336,6 +1397,7 @@ db.assign(_instance_of_Pipe_0178f448cfff6ceb6f38            , _Pipe_Source_Prope
 db.assign(_instance_of_Pipe_0178f448f90a15e79621            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Height_01611d9a0452a179c68f           );
 db.assign(_instance_of_Pipe_0178f4494f5fc7e3c3e6            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Width_01611d99ec0553b5926e            );
 db.assign(_instance_of_Pipe_0178f4b9c2be77955891            , _Pipe_Source_Property_0168a431d91f25780004        , _Component_Touch_Move_0168e13a668be409860f        );
+db.assign(_instance_of_Pipe_0178f90163238f5536d8            , _Pipe_Source_Property_0168a431d91f25780004        , _instance_of_Property__TouchPad____SliderValue_0178f3afce85babaf381);
 db.assign(_instance_of_Pipe_0178f3a5f0f13e9eace3            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_TouchPad_On_Load_0178f3a5f0f10ee239fc);
 db.assign(_instance_of_Pipe_0178f3a75472805b6713            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Get_UI_Property_0178f3a75472bc79e81d );
 db.assign(_instance_of_Pipe_0178f3a77073da224009            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Get_UI_Property_0178f3a77073e85d699a );
@@ -1382,6 +1444,9 @@ db.assign(_instance_of_Pipe_0178f4b9c2be77955891            , _Pipe_Destination_
 db.assign(_instance_of_Pipe_0178f4b9c9fdbfee8500            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Get_Touch_Event_Attributes_0178f3a6ee0de6a60bbe);
 db.assign(_instance_of_Pipe_0178f4baa82c9ceb5d4c            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Log_0178f444756d023d8138             );
 db.assign(_instance_of_Pipe_0178f4bcbcd5b66e94ca            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_OnValue_0178f3b214c6286c7b23         );
+db.assign(_instance_of_Pipe_0178f90163238f5536d8            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_UI_Property_0178f9016322dd452324 );
+db.assign(_instance_of_Pipe_0178f901dcbba7f0916b            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_UI_Property_0178f9016322dd452324 );
+db.assign(_instance_of_Pipe_0178f901e5e4324124a2            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_UI_Property_0178f9016322dd452324 );
 db.assign(_instance_of_Pipe_0178f3a5f0f13e9eace3            , _Pipe_Destination_Input_0168a431d91f2578000b      , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f3a5f0f1ed7a9684);
 db.assign(_instance_of_Pipe_0178f3a75472805b6713            , _Pipe_Destination_Input_0168a431d91f2578000b      , _UI_Property_0162de7e041b00292ccd                 );
 db.assign(_instance_of_Pipe_0178f3a77073da224009            , _Pipe_Destination_Input_0168a431d91f2578000b      , _UI_Property_0162de7e041b00292ccd                 );
@@ -1423,6 +1488,9 @@ db.assign(_instance_of_Pipe_0178f4b9c2be77955891            , _Pipe_Destination_
 db.assign(_instance_of_Pipe_0178f4b9c9fdbfee8500            , _Pipe_Destination_Input_0168a431d91f2578000b      , _event_0168e141101a6b2bff3e                       );
 db.assign(_instance_of_Pipe_0178f4baa82c9ceb5d4c            , _Pipe_Destination_Input_0168a431d91f2578000b      , _value_016324e734c079126513                       );
 db.assign(_instance_of_Pipe_0178f4bcbcd5b66e94ca            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Value_016682d39b0ca1d7b24e                       );
+db.assign(_instance_of_Pipe_0178f90163238f5536d8            , _Pipe_Destination_Input_0168a431d91f2578000b      , _UI_Property_0162d293ab6f65c86c52                 );
+db.assign(_instance_of_Pipe_0178f901dcbba7f0916b            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Value_0162d293e8f59ad91a16                       );
+db.assign(_instance_of_Pipe_0178f901e5e4324124a2            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Control_Flow_0162d2938caead968805                );
 db.assign(_instance_of_Pipe_0178f4489cf1a72c5d03            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Renderable_Width_01611d99ec0553b5926e            );
 db.assign(_instance_of_Pipe_0178f448a442c7ece2c1            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Renderable_Height_01611d9a0452a179c68f           );
 db.assign(_instance_of_Pipe_0178f448cfffd7eef177            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_X_01611d99243ad989b91b                 );
@@ -1451,6 +1519,7 @@ db.assign(_instance_of_Get_UI_Property_0178f448f909944603a7 , _Runnable_Definiti
 db.assign(_instance_of_Plus_0178f449064921483baa            , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Plus_01621f754a1c01a72d8e                        );
 db.assign(_instance_of_LengthInPercent_0178f4494f5e0e5d97d1 , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _LengthInPercent_016f8f8416f002ae2b00             );
 db.assign(_instance_of_Get_UI_Property_0178f4b9c2bea6a4cea5 , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Get_UI_Property_0162de7dd5abdc9dec7f             );
+db.assign(_instance_of_Set_UI_Property_0178f9016322dd452324 , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Set_UI_Property_0162d2938cadad968805             );
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_TouchPad_On_Load_0178f3a5f0f10ee239fc);
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Rectangle____New_Rectangle_0178f442b40e2431402e);
 db.assign(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Slider____New_Slider_0178f443dafa6ffd6f09);
@@ -1473,6 +1542,7 @@ db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_01
 db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Log_0178f444756d023d8138             );
 db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_RangeMapping____RangeMapping_0178f444a7a072dfb106);
 db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_UI_Property_0178f4b9c2bea6a4cea5 );
+db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Set_UI_Property_0178f9016322dd452324 );
 db.assign(_instance_of_Function_model____New_Slider_Y_0178f448e1af44e9e2ce, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Ascender_0178f448e1b06f3c22f5        );
 db.assign(_instance_of_Function_model____New_Slider_Y_0178f448e1af44e9e2ce, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_UI_Property_0178f448f909944603a7 );
 db.assign(_instance_of_Function_model____New_Slider_Y_0178f448e1af44e9e2ce, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Plus_0178f449064921483baa            );
@@ -1542,6 +1612,10 @@ db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_01
 db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f4b9c9fdbfee8500            );
 db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f4baa82c9ceb5d4c            );
 db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f4bcbcd5b66e94ca            );
+db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Set_UI_Property_0178f9016322dd452324 );
+db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f90163238f5536d8            );
+db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f901dcbba7f0916b            );
+db.assign(_instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f901e5e4324124a2            );
 db.assign(_instance_of_TouchPad_On_Load_0178f3a5f0f10ee239fc, _Object_containsRel_ff02200000000000000f          , _instance_of_Interaction_Event_Definition_model____TouchPad_On_Load_0178f3a5f0f0302a4dc3);
 db.assign(_instance_of_Descender_0178f3a5f0f12623c9f6       , _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Output____New_output_0178f3a5f0f1e9a18445);
 db.assign(_instance_of_Descender_0178f3a5f0f12623c9f6       , _Object_containsRel_ff02200000000000000f          , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f3a5f0f1ed7a9684);
@@ -1586,6 +1660,7 @@ db.assign(_instance_of_Get_UI_Property_0178f448f909944603a7 , _Object_containsRe
 db.assign(_instance_of_Plus_0178f449064921483baa            , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f449064ac06dfe5a);
 db.assign(_instance_of_Get_UI_Property_0178f4b9c2bea6a4cea5 , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f4b9c2be99b5d38a);
 db.assign(_instance_of_Property__TouchPad____CurrentPlayer_0178f8f0cdcbb5ffbe11, _Object_containsRel_ff02200000000000000f          , _instance_of_Composer_Property_0178f8f0cdcbc25dbab6);
+db.assign(_instance_of_Set_UI_Property_0178f9016322dd452324 , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f90163233e737c34);
 db.assignOptional(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _Object_gooRel_ff022000000000000003, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553, _GOO_parentGooRel_ff02200000000000000u, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_RacketApp_0178f39b0bbbad11abdd, _Object_containsRel_ff02200000000000000f, _instance_of_Visual_Component_model____TouchPad_0178f39a58fd22106553);

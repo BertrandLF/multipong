@@ -20,6 +20,8 @@ const _Get_UI_Property_0162de7dd5abdc9dec7f    = '0162de7dd5abdc9dec7f';
 const _Interaction_Event_Definition_0169b6876a03f139d50a = '0169b6876a03f139d50a';
 const _Label_01612df39109cf82fa8d              = '01612df39109cf82fa8d';
 const _LengthInPercent_016f8f8416f002ae2b00    = '016f8f8416f002ae2b00';
+const _Log_016324e7338307c3ed94                = '016324e7338307c3ed94';
+const _ObjectRef_0163c9ae01f2d6e9ca49          = '0163c9ae01f2d6e9ca49';
 const _Pipe_0168a431d91f25780000               = '0168a431d91f25780000';
 const _Player_0178f3760227c2853e6f             = '0178f3760227c2853e6f';
 const _Predefined_input_Control_Flow_of_Interaction_Event_Definition_016ac63808535703691c = '016ac63808535703691c';
@@ -27,10 +29,12 @@ const _Property_ff021000000000000005           = 'ff021000000000000005';
 const _Runnable_Output_0168a431d25001540002    = '0168a431d25001540002';
 const _Screen_01612df349e137bbb30b             = '01612df349e137bbb30b';
 const _Screen_01612df3703450d895ac             = '01612df3703450d895ac';
+const _Set_Object_Property_01632a7cbe87ca19c5f1 = '01632a7cbe87ca19c5f1';
 const _TouchPad_0178f39a58fd22106553           = '0178f39a58fd22106553';
 
 
 // Definition of tags of defined properties
+const _Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001 = '01621fb84e320000f001';
 const _Component_Rank_016c23bd12493a7e1b2e          = '016c23bd12493a7e1b2e';
 const _Component_X_01611d99243ad989b91b             = '01611d99243ad989b91b';
 const _Component_Y_01611d9962e7f4f9a26d             = '01611d9962e7f4f9a26d';
@@ -42,11 +46,13 @@ const _Function_Metadata_y_01621f6ab6ac89348f20     = '01621f6ab6ac89348f20';
 const _Group_Definition_Layout_016be61ab921cb3bdef9 = '016be61ab921cb3bdef9';
 const _Object_name_ff023000000000000011             = 'ff023000000000000011';
 const _Pipe_Source_Value_0168a431d91f25780001       = '0168a431d91f25780001';
+const _Player_position_0178f37ff51ef2a21457         = '0178f37ff51ef2a21457';
 const _Renderable_Height_01611d9a0452a179c68f       = '01611d9a0452a179c68f';
 const _Renderable_Width_01611d99ec0553b5926e        = '01611d99ec0553b5926e';
 const _Runnable_Definition_On_Load_0166446c1f128ebc903a = '0166446c1f128ebc903a';
 const _Runnable_IO_IO_Rank_01740c5d4ae4b520dd01     = '01740c5d4ae4b520dd01';
 const _TextComponent_Text_01633fa386be67e6fd1d      = '01633fa386be67e6fd1d';
+const _TouchPad_SliderValue_0178f3afce85babaf381    = '0178f3afce85babaf381';
 
 
 // Definition of tags of defined relations
@@ -63,6 +69,7 @@ const _GOO_parentGooRel_ff02200000000000000u        = 'ff02200000000000000u';
 const _Object_containsRel_ff02200000000000000f      = 'ff02200000000000000f';
 const _Object_gooRel_ff022000000000000003           = 'ff022000000000000003';
 const _Object_propertyRel_ff02200000000000000c      = 'ff02200000000000000c';
+const _ObjectRef_reference_0169b5a8a33144fb0b49     = '0169b5a8a33144fb0b49';
 const _Pipe_Destination_Input_0168a431d91f2578000b  = '0168a431d91f2578000b';
 const _Pipe_Destination_Property_0168a431d91f2578000c = '0168a431d91f2578000c';
 const _Pipe_Destination_Scope_0168a431d91f2578000a  = '0168a431d91f2578000a';
@@ -103,6 +110,20 @@ const _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition
 const _instance_of_Get_UI_Property_0178f482c5035cd0e17f = db.assignTag('0178f482c5035cd0e17f');
 const _instance_of_Function_Metadata_0178f482c504409b69c9 = db.assignTag('0178f482c504409b69c9');
 const _instance_of_Pipe_0178f482c504d0c88599        = db.assignTag('0178f482c504d0c88599');
+const _instance_of_Set_Object_Property_0178f8fe0f82442b443d = db.assignTag('0178f8fe0f82442b443d');
+const _instance_of_Function_Metadata_0178f8fe0f83e588fcb6 = db.assignTag('0178f8fe0f83e588fcb6');
+const _instance_of_Pipe_0178f8fe1d84d693195b        = db.assignTag('0178f8fe1d84d693195b');
+const _instance_of_Pipe_0178f8fe3333e0e88995        = db.assignTag('0178f8fe3333e0e88995');
+const _instance_of_Pipe_0178f8fe4ebdcaeae8ee        = db.assignTag('0178f8fe4ebdcaeae8ee');
+const _instance_of_ObjectRef_0178f8fe701ab228298f   = db.assignTag('0178f8fe701ab228298f');
+const _instance_of_Function_Metadata_0178f8fffa6918c01ade = db.assignTag('0178f8fffa6918c01ade');
+const _instance_of_Pipe_0178f8fffa693e151581        = db.assignTag('0178f8fffa693e151581');
+const _instance_of_Get_UI_Property_0178f8fffa69e646d9be = db.assignTag('0178f8fffa69e646d9be');
+const _instance_of_Pipe_0178f9001b0a50b899b1        = db.assignTag('0178f9001b0a50b899b1');
+const _instance_of_Pipe_0178f90536da202b00fe        = db.assignTag('0178f90536da202b00fe');
+const _instance_of_Log_0178f90536da6d0510d3         = db.assignTag('0178f90536da6d0510d3');
+const _instance_of_Function_Metadata_0178f90536db952889b0 = db.assignTag('0178f90536db952889b0');
+const _instance_of_Pipe_0178f9059eaed4056142        = db.assignTag('0178f9059eaed4056142');
 
 
 //==========================================================
@@ -110,11 +131,18 @@ const _instance_of_Pipe_0178f482c504d0c88599        = db.assignTag('0178f482c504
 //==========================================================
 const _$_37_$_016f8f86914e30ad366c             = '016f8f86914e30ad366c';
 const _containerLength_016f8f84669b9b268701    = '016f8f84669b9b268701';
+const _Control_Flow_01632a7cbe88ca19c5f1       = '01632a7cbe88ca19c5f1';
 const _Custom_properties_0164188f5cc0c205bc06  = '0164188f5cc0c205bc06';
 const _instanceOfBusinessModelInlineEditorInstance_016fc353e828dfdae63a = '016fc353e828dfdae63a';
+const _label_016324e735d1b86b4147              = '016324e735d1b86b4147';
+const _object_01632a7cbe8797167e44             = '01632a7cbe8797167e44';
+const _property_01632a7cbe87c72b65f2           = '01632a7cbe87c72b65f2';
 const _RacketApp_0178f39b0bbbad11abdd          = '0178f39b0bbbad11abdd';
 const _result_016f8f8474fbb8fb0fe8             = '016f8f8474fbb8fb0fe8';
 const _UI_Property_0162de7e041b00292ccd        = '0162de7e041b00292ccd';
+const _Value_0162de8176947619c15f              = '0162de8176947619c15f';
+const _value_016324e734c079126513              = '016324e734c079126513';
+const _value_01632a7cbe8710c66bc3              = '01632a7cbe8710c66bc3';
 
 
 
@@ -362,8 +390,8 @@ db.newInstance(_instance_of_Function_Metadata_0178f482c504409b69c9)
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Get_UI_Property_0178f482c5035cd0e17f)
     .setNameOrProperties({
-        [_Function_Metadata_x_01621f6ab58c2f884654]:19838,
-        [_Function_Metadata_y_01621f6ab6ac89348f20]:19970,
+        [_Function_Metadata_x_01621f6ab58c2f884654]:19700,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:19624,
         'v'                                     :1
     })
     .done();
@@ -376,12 +404,158 @@ db.newInstance(_instance_of_Pipe_0178f482c504d0c88599)
         'v'                                     :1
     })
     .done();
+// :_instance_of_Set_Object_Property_0178f8fe0f82442b443d
+db.newInstance(_instance_of_Set_Object_Property_0178f8fe0f82442b443d)
+    .setModelTag(_Set_Object_Property_01632a7cbe87ca19c5f1) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        [_Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001]:'private',
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Function_Metadata_0178f8fe0f83e588fcb6
+db.newInstance(_instance_of_Function_Metadata_0178f8fe0f83e588fcb6)
+    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Set_Object_Property_0178f8fe0f82442b443d)
+    .setNameOrProperties({
+        [_Function_Metadata_x_01621f6ab58c2f884654]:20067,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:19813,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8fe1d84d693195b
+db.newInstance(_instance_of_Pipe_0178f8fe1d84d693195b)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8fe3333e0e88995
+db.newInstance(_instance_of_Pipe_0178f8fe3333e0e88995)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8fe4ebdcaeae8ee
+db.newInstance(_instance_of_Pipe_0178f8fe4ebdcaeae8ee)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_ObjectRef_0178f8fe701ab228298f
+db.newInstance(_instance_of_ObjectRef_0178f8fe701ab228298f)
+    .setModelTag(_ObjectRef_0163c9ae01f2d6e9ca49) // tag of the model
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// >>goo_dep::_instance_of_Get_UI_Property_0178f8fffa69e646d9be
+db.newInstance(_instance_of_Get_UI_Property_0178f8fffa69e646d9be)
+    .setModelTag(_Get_UI_Property_0162de7dd5abdc9dec7f) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Function_Metadata_0178f8fffa6918c01ade
+db.newInstance(_instance_of_Function_Metadata_0178f8fffa6918c01ade)
+    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Get_UI_Property_0178f8fffa69e646d9be)
+    .setNameOrProperties({
+        [_Function_Metadata_x_01621f6ab58c2f884654]:19743,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:19917,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f8fffa693e151581
+db.newInstance(_instance_of_Pipe_0178f8fffa693e151581)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f9001b0a50b899b1
+db.newInstance(_instance_of_Pipe_0178f9001b0a50b899b1)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f90536da202b00fe
+db.newInstance(_instance_of_Pipe_0178f90536da202b00fe)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        [_Pipe_Source_Value_0168a431d91f25780001]:'Info',
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Log_0178f90536da6d0510d3
+db.newInstance(_instance_of_Log_0178f90536da6d0510d3)
+    .setModelTag(_Log_016324e7338307c3ed94) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        [_Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001]:'private',
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Function_Metadata_0178f90536db952889b0
+db.newInstance(_instance_of_Function_Metadata_0178f90536db952889b0)
+    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Log_0178f90536da6d0510d3)
+    .setNameOrProperties({
+        [_Function_Metadata_x_01621f6ab58c2f884654]:20074,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:20025,
+        'v'                                     :1
+    })
+    .done();
+// :_instance_of_Pipe_0178f9059eaed4056142
+db.newInstance(_instance_of_Pipe_0178f9059eaed4056142)
+    .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
 db.updateInstance(_instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b, {
         [_Group_Definition_Layout_016be61ab921cb3bdef9]:db.createReference(_instance_of_Absolute_0178f39dcd283a623f7a),
         'v'                                     :3
     });
+db.updateInstance(_instance_of_Pipe_0178f8fe4ebdcaeae8ee, {
+        [_Pipe_Source_Value_0168a431d91f25780001]:db.createReference(_instance_of_ObjectRef_0178f8fe701ab228298f),
+        'v'                                     :3
+    });
 db.assign(_instance_of_Property__PlayingScreen____Player_0178f4821d66be5fbc38, _Property_typeRel_ff02200000000000000d            , _Player_0178f3760227c2853e6f                      );
 db.assign(_instance_of_Get_UI_Property_0178f482c5035cd0e17f , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f482c504409b69c9);
+db.assign(_instance_of_Set_Object_Property_0178f8fe0f82442b443d, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8fe0f83e588fcb6);
+db.assign(_instance_of_Get_UI_Property_0178f8fffa69e646d9be , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8fffa6918c01ade);
+db.assign(_instance_of_Log_0178f90536da6d0510d3             , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f90536db952889b0);
 db.assign(_instance_of_Descender_0178f482aa0327242b81       , _Descender_Downward_01621fb84e32000000d1          , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f482aa039a3e560a);
 db.assign(_instance_of_Descender_0178f482aa0327242b81       , _Descender_Output_01621fb84e32000000d2            , _instance_of_Runnable_Output____New_output_0178f482aa0388be0c6b);
 db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Runnable_Definition_Inputs_01621fb84e320000f00a  , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f482aa039a3e560a);
@@ -393,12 +567,22 @@ db.assign(_instance_of_Pipe_0178f3df2466947ce903            , _Pipe_Source_Scope
 db.assign(_instance_of_Pipe_0178f3df2466e2523a70            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b);
 db.assign(_instance_of_Pipe_0178f482aa036fd1ef6d            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b);
 db.assign(_instance_of_Pipe_0178f482c504d0c88599            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b);
+db.assign(_instance_of_Pipe_0178f8fe1d84d693195b            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Descender_0178f482aa0327242b81       );
+db.assign(_instance_of_Pipe_0178f8fe3333e0e88995            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Get_UI_Property_0178f482c5035cd0e17f );
+db.assign(_instance_of_Pipe_0178f8fffa693e151581            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_TouchPad____New_TouchPad_0178f3de802577b4b138);
+db.assign(_instance_of_Pipe_0178f9001b0a50b899b1            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Get_UI_Property_0178f8fffa69e646d9be );
+db.assign(_instance_of_Pipe_0178f9059eaed4056142            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Get_UI_Property_0178f8fffa69e646d9be );
 db.assign(_instance_of_Pipe_0178f3df1e20d90df5e5            , _Pipe_Source_Output_0168a431d91f25780003          , _result_016f8f8474fbb8fb0fe8                      );
 db.assign(_instance_of_Pipe_0178f3df2466947ce903            , _Pipe_Source_Output_0168a431d91f25780003          , _result_016f8f8474fbb8fb0fe8                      );
+db.assign(_instance_of_Pipe_0178f8fe1d84d693195b            , _Pipe_Source_Output_0168a431d91f25780003          , _instance_of_Runnable_Output____New_output_0178f482aa0388be0c6b);
+db.assign(_instance_of_Pipe_0178f8fe3333e0e88995            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0162de8176947619c15f                       );
+db.assign(_instance_of_Pipe_0178f9001b0a50b899b1            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0162de8176947619c15f                       );
+db.assign(_instance_of_Pipe_0178f9059eaed4056142            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0162de8176947619c15f                       );
 db.assign(_instance_of_Pipe_0178f3df1e2063166149            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Width_01611d99ec0553b5926e            );
 db.assign(_instance_of_Pipe_0178f3df2466e2523a70            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Height_01611d9a0452a179c68f           );
 db.assign(_instance_of_Pipe_0178f482aa036fd1ef6d            , _Pipe_Source_Property_0168a431d91f25780004        , _Runnable_Definition_On_Load_0166446c1f128ebc903a );
 db.assign(_instance_of_Pipe_0178f482c504d0c88599            , _Pipe_Source_Property_0168a431d91f25780004        , _instance_of_Property__PlayingScreen____Player_0178f4821d66be5fbc38);
+db.assign(_instance_of_Pipe_0178f8fffa693e151581            , _Pipe_Source_Property_0168a431d91f25780004        , _TouchPad_SliderValue_0178f3afce85babaf381        );
 db.assign(_instance_of_Pipe_0178f3df1e201ecc3e1c            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_LengthInPercent_0178f3df1e1fc9b762f3 );
 db.assign(_instance_of_Pipe_0178f3df1e2063166149            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_LengthInPercent_0178f3df1e1fc9b762f3 );
 db.assign(_instance_of_Pipe_0178f3df1e20d90df5e5            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_TouchPad____New_TouchPad_0178f3de802577b4b138);
@@ -407,12 +591,26 @@ db.assign(_instance_of_Pipe_0178f3df2466947ce903            , _Pipe_Destination_
 db.assign(_instance_of_Pipe_0178f3df2466e2523a70            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_LengthInPercent_0178f3df24652dd32eb6 );
 db.assign(_instance_of_Pipe_0178f482aa036fd1ef6d            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_PlayingScreen_On_Load_0178f482aa0351d2edfc);
 db.assign(_instance_of_Pipe_0178f482c504d0c88599            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Get_UI_Property_0178f482c5035cd0e17f );
+db.assign(_instance_of_Pipe_0178f8fe1d84d693195b            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_Object_Property_0178f8fe0f82442b443d);
+db.assign(_instance_of_Pipe_0178f8fe3333e0e88995            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_Object_Property_0178f8fe0f82442b443d);
+db.assign(_instance_of_Pipe_0178f8fe4ebdcaeae8ee            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_Object_Property_0178f8fe0f82442b443d);
+db.assign(_instance_of_Pipe_0178f8fffa693e151581            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Get_UI_Property_0178f8fffa69e646d9be );
+db.assign(_instance_of_Pipe_0178f9001b0a50b899b1            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_Object_Property_0178f8fe0f82442b443d);
+db.assign(_instance_of_Pipe_0178f90536da202b00fe            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Log_0178f90536da6d0510d3             );
+db.assign(_instance_of_Pipe_0178f9059eaed4056142            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Log_0178f90536da6d0510d3             );
 db.assign(_instance_of_Pipe_0178f3df1e201ecc3e1c            , _Pipe_Destination_Input_0168a431d91f2578000b      , _$_37_$_016f8f86914e30ad366c                      );
 db.assign(_instance_of_Pipe_0178f3df1e2063166149            , _Pipe_Destination_Input_0168a431d91f2578000b      , _containerLength_016f8f84669b9b268701             );
 db.assign(_instance_of_Pipe_0178f3df24664e1e3bef            , _Pipe_Destination_Input_0168a431d91f2578000b      , _$_37_$_016f8f86914e30ad366c                      );
 db.assign(_instance_of_Pipe_0178f3df2466e2523a70            , _Pipe_Destination_Input_0168a431d91f2578000b      , _containerLength_016f8f84669b9b268701             );
 db.assign(_instance_of_Pipe_0178f482aa036fd1ef6d            , _Pipe_Destination_Input_0168a431d91f2578000b      , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f482aa039a3e560a);
 db.assign(_instance_of_Pipe_0178f482c504d0c88599            , _Pipe_Destination_Input_0168a431d91f2578000b      , _UI_Property_0162de7e041b00292ccd                 );
+db.assign(_instance_of_Pipe_0178f8fe1d84d693195b            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Control_Flow_01632a7cbe88ca19c5f1                );
+db.assign(_instance_of_Pipe_0178f8fe3333e0e88995            , _Pipe_Destination_Input_0168a431d91f2578000b      , _object_01632a7cbe8797167e44                      );
+db.assign(_instance_of_Pipe_0178f8fe4ebdcaeae8ee            , _Pipe_Destination_Input_0168a431d91f2578000b      , _property_01632a7cbe87c72b65f2                    );
+db.assign(_instance_of_Pipe_0178f8fffa693e151581            , _Pipe_Destination_Input_0168a431d91f2578000b      , _UI_Property_0162de7e041b00292ccd                 );
+db.assign(_instance_of_Pipe_0178f9001b0a50b899b1            , _Pipe_Destination_Input_0168a431d91f2578000b      , _value_01632a7cbe8710c66bc3                       );
+db.assign(_instance_of_Pipe_0178f90536da202b00fe            , _Pipe_Destination_Input_0168a431d91f2578000b      , _label_016324e735d1b86b4147                       );
+db.assign(_instance_of_Pipe_0178f9059eaed4056142            , _Pipe_Destination_Input_0168a431d91f2578000b      , _value_016324e734c079126513                       );
 db.assign(_instance_of_Pipe_0178f3df1e20d90df5e5            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Renderable_Width_01611d99ec0553b5926e            );
 db.assign(_instance_of_Pipe_0178f3df2466947ce903            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Renderable_Height_01611d9a0452a179c68f           );
 db.assign(_instance_of_TouchPad____New_TouchPad_0178f3de802577b4b138, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _TouchPad_0178f39a58fd22106553                    );
@@ -421,6 +619,9 @@ db.assign(_instance_of_LengthInPercent_0178f3df24652dd32eb6 , _Runnable_Definiti
 db.assign(_instance_of_Label____New_Label_0178f44abc787b0d0192, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Label_01612df39109cf82fa8d                       );
 db.assign(_instance_of_PlayingScreen_On_Load_0178f482aa0351d2edfc, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38);
 db.assign(_instance_of_Get_UI_Property_0178f482c5035cd0e17f , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Get_UI_Property_0162de7dd5abdc9dec7f             );
+db.assign(_instance_of_Set_Object_Property_0178f8fe0f82442b443d, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Set_Object_Property_01632a7cbe87ca19c5f1         );
+db.assign(_instance_of_Get_UI_Property_0178f8fffa69e646d9be , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Get_UI_Property_0162de7dd5abdc9dec7f             );
+db.assign(_instance_of_Log_0178f90536da6d0510d3             , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Log_016324e7338307c3ed94                         );
 db.assign(_instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_TouchPad____New_TouchPad_0178f3de802577b4b138);
 db.assign(_instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_LengthInPercent_0178f3df1e1fc9b762f3 );
 db.assign(_instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_LengthInPercent_0178f3df24652dd32eb6 );
@@ -428,7 +629,11 @@ db.assign(_instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b, _Runn
 db.assign(_instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_PlayingScreen_On_Load_0178f482aa0351d2edfc);
 db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Descender_0178f482aa0327242b81       );
 db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_UI_Property_0178f482c5035cd0e17f );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Set_Object_Property_0178f8fe0f82442b443d);
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_UI_Property_0178f8fffa69e646d9be );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Log_0178f90536da6d0510d3             );
 db.assign(_instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b, _Renderable_Definition_themable_property_016951f802614c4350bf, _instance_of_Property__PlayingScreen____Player_0178f4821d66be5fbc38);
+db.assign(_instance_of_ObjectRef_0178f8fe701ab228298f       , _ObjectRef_reference_0169b5a8a33144fb0b49         , _Player_position_0178f37ff51ef2a21457             );
 db.assign(_instance_of_Absolute_0178f39dcd283a623f7a        , _Delegate_Delegator_Relation_016c3cb7742ec9309e0b , _instance_of_TouchPad____New_TouchPad_0178f3de802577b4b138);
 db.assign(_instance_of_Absolute_0178f39dcd283a623f7a        , _Delegate_Delegator_Relation_016c3cb7742ec9309e0b , _instance_of_Label____New_Label_0178f44abc787b0d0192);
 db.assign(_instance_of_Composer_Property_0178f4821d6677ebc6ae, _Composer_Property_Category_016d1bb681929c2cc3f4  , _Custom_properties_0164188f5cc0c205bc06           );
@@ -455,10 +660,23 @@ db.assign(_instance_of_Property__PlayingScreen____Player_0178f4821d66be5fbc38, _
 db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f482aa039a3e560a);
 db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Get_UI_Property_0178f482c5035cd0e17f );
 db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f482c504d0c88599            );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Set_Object_Property_0178f8fe0f82442b443d);
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8fe1d84d693195b            );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8fe3333e0e88995            );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8fe4ebdcaeae8ee            );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f8fffa693e151581            );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Get_UI_Property_0178f8fffa69e646d9be );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f9001b0a50b899b1            );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f90536da202b00fe            );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Log_0178f90536da6d0510d3             );
+db.assign(_instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f9059eaed4056142            );
 db.assign(_instance_of_Descender_0178f482aa0327242b81       , _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Output____New_output_0178f482aa0388be0c6b);
 db.assign(_instance_of_Descender_0178f482aa0327242b81       , _Object_containsRel_ff02200000000000000f          , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f482aa039a3e560a);
 db.assign(_instance_of_PlayingScreen_On_Load_0178f482aa0351d2edfc, _Object_containsRel_ff02200000000000000f          , _instance_of_Interaction_Event_Definition_model____PlayingScreen_On_Load_0178f482aa027d8ebc38);
 db.assign(_instance_of_Get_UI_Property_0178f482c5035cd0e17f , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f482c504409b69c9);
+db.assign(_instance_of_Set_Object_Property_0178f8fe0f82442b443d, _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f8fe0f83e588fcb6);
+db.assign(_instance_of_Get_UI_Property_0178f8fffa69e646d9be , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f8fffa6918c01ade);
+db.assign(_instance_of_Log_0178f90536da6d0510d3             , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f90536db952889b0);
 db.assignOptional(_instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b, _Object_gooRel_ff022000000000000003, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b, _GOO_parentGooRel_ff02200000000000000u, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_RacketApp_0178f39b0bbbad11abdd, _Object_containsRel_ff02200000000000000f, _instance_of_Screen_model____PlayingScreen_0178f39dcd281e39173b);
