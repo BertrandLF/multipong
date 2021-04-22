@@ -26,6 +26,7 @@ const _Player_name_0178f37b8ec7b9c01295             = '0178f37b8ec7b9c01295';
 
 // Definition of tags of defined relations
 const _Folder_itemRel_016a697ef00ce7554692          = '016a697ef00ce7554692';
+const _Game_playing_0178f37946d6c3959d61            = '0178f37946d6c3959d61';
 const _GOO_parentGooRel_ff02200000000000000u        = 'ff02200000000000000u';
 const _Object_containsRel_ff02200000000000000f      = 'ff02200000000000000f';
 const _Object_gooRel_ff022000000000000003           = 'ff022000000000000003';
@@ -170,6 +171,7 @@ db.newInstance(_instance_of_Player____Player_0178f8ca35ac92acfbb4)
         'v'                                     :1
     })
     .done();
+db.assign(_instance_of_Game____Game_0178f8ca10b414513094    , _Game_playing_0178f37946d6c3959d61                , _instance_of_Player____Player_0178f8ca3163d7c7bf1d);
 db.assign(_instance_of_Data_Set____DataSet_0178f3ae68793da5d7b0, _Object_containsRel_ff02200000000000000f          , _instance_of_NumberColor____NumberColor_0178f4730cc2f46802f0);
 db.assign(_instance_of_Data_Set____DataSet_0178f3ae68793da5d7b0, _Object_containsRel_ff02200000000000000f          , _instance_of_NumberColor____NumberColor_0178f47326f005e35941);
 db.assign(_instance_of_Data_Set____DataSet_0178f3ae68793da5d7b0, _Object_containsRel_ff02200000000000000f          , _instance_of_NumberColor____NumberColor_0178f473489f55bf0770);
