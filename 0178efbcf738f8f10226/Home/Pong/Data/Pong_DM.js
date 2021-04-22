@@ -69,6 +69,9 @@ const _instance_of_Property__NumberColor____Number_0178f4716ad5b78fce65 = db.ass
 const _instance_of_Property__NumberColor____Color_0178f471da73de494e54 = db.assignTag('0178f471da73de494e54');
 const _instance_of_Property__Game____LastNumbercolor_0178f4852abcd14bc380 = db.assignTag('0178f4852abcd14bc380');
 const _instance_of_Property__Player____Ingame_0178f8f204e1d15661f7 = db.assignTag('0178f8f204e1d15661f7');
+const _instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f = db.assignTag('0178f9a0a32eef316e2f');
+const _instance_of_Diagram_Metadata_0178f9a0a32f5633bd89 = db.assignTag('0178f9a0a32f5633bd89');
+const _instance_of_Property__TEST_DATA____plop_0178f9a0c17f80150ec1 = db.assignTag('0178f9a0c17f80150ec1');
 
 
 //==========================================================
@@ -283,6 +286,43 @@ db.newInstance(_instance_of_Diagram_Metadata_0178f4712c170df50f2e)
         'v'                                     :1
     })
     .done();
+db.newInstance(_instance_of_Property__TEST_DATA____plop_0178f9a0c17f80150ec1, _Property_ff021000000000000005)
+    .setNameOrProperties({
+        [_Object_name_ff023000000000000011]     :'plop',
+        'v'                                     :1
+    })
+.done();
+// :_instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f
+db.newModel(_instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f)
+    .setModelTag(_Business_Model_016324fde11a836f76c2) // tag of the model
+    .setParentTag(_Object_ff021000000000000001) // tag of model's parent (if any; null else)
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4)
+    // Tag of parent goos
+    .addParentGoo(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4)
+    .setNameOrProperties({
+        [_Brick_Metadata_$_40_$Runtime$_41_$_visibility_01621fb84e320000f001]:'public',
+        [_Object_name_ff023000000000000011]     :'TEST DATA',
+        'v'                                     :1
+    })
+    .done();
+db.updateInstance(_instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f, {
+        [db.DEFAULT+_Object_name_ff023000000000000011]:'TEST DATA',
+        'v'                                     :2
+    });
+db.assign(_instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f, _Object_propertyRel_ff02200000000000000c          , _instance_of_Property__TEST_DATA____plop_0178f9a0c17f80150ec1);
+// :_instance_of_Diagram_Metadata_0178f9a0a32f5633bd89
+db.newInstance(_instance_of_Diagram_Metadata_0178f9a0a32f5633bd89)
+    .setModelTag(_Diagram_Metadata_0163a69a2f9d6c38abb9) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f)
+    .setNameOrProperties({
+        [_Diagram_Metadata_opened_0163b04743141933648b]:true,
+        [_Diagram_Metadata_x_0163a69a32631aecdc22]:20945,
+        [_Diagram_Metadata_y_0163a69a343bc8f39e37]:20265,
+        'v'                                     :1
+    })
+    .done();
 db.assign(_instance_of_Relation__Game____playing_0178f37946d6c3959d61, _Relation_destinationModelRel_ff02200000000000000b, _instance_of_Business_Model_model____Player_0178f3760227c2853e6f);
 db.assign(_instance_of_Property__Player____colour_0178f377161c74798ce4, _Property_typeRel_ff02200000000000000d            , _Color_ff021000000000000017                       );
 db.assign(_instance_of_Property__Player____life_0178f3774f3374670cef, _Property_typeRel_ff02200000000000000d            , _Number_ff021000000000000013                      );
@@ -296,12 +336,15 @@ db.assign(_instance_of_Property__NumberColor____Number_0178f4716ad5b78fce65, _Pr
 db.assign(_instance_of_Property__NumberColor____Color_0178f471da73de494e54, _Property_typeRel_ff02200000000000000d            , _Color_ff021000000000000017                       );
 db.assign(_instance_of_Property__Game____LastNumbercolor_0178f4852abcd14bc380, _Property_typeRel_ff02200000000000000d            , _Number_ff021000000000000013                      );
 db.assign(_instance_of_Property__Player____Ingame_0178f8f204e1d15661f7, _Property_typeRel_ff02200000000000000d            , _Boolean_ff021000000000000012                     );
+db.assign(_instance_of_Property__TEST_DATA____plop_0178f9a0c17f80150ec1, _Property_typeRel_ff02200000000000000d            , _Number_ff021000000000000013                      );
 db.assign(_instance_of_Business_Model_model____Player_0178f3760227c2853e6f, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Diagram_Metadata_0178f376022726bb775f);
 db.assign(_instance_of_Business_Model_model____Game_0178f3776a851b19e18d, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Diagram_Metadata_0178f3776a857663781d);
 db.assign(_instance_of_Business_Model_model____NumberColor_0178f4712c1770ee79cf, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Diagram_Metadata_0178f4712c170df50f2e);
+db.assign(_instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Diagram_Metadata_0178f9a0a32f5633bd89);
 db.assign(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _Folder_itemRel_016a697ef00ce7554692              , _instance_of_Business_Model_model____Player_0178f3760227c2853e6f);
 db.assign(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _Folder_itemRel_016a697ef00ce7554692              , _instance_of_Business_Model_model____Game_0178f3776a851b19e18d);
 db.assign(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _Folder_itemRel_016a697ef00ce7554692              , _instance_of_Business_Model_model____NumberColor_0178f4712c1770ee79cf);
+db.assign(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _Folder_itemRel_016a697ef00ce7554692              , _instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f);
 db.assign(_instance_of_Property__Player____colour_0178f377161c74798ce4, _Object_gooRel_ff022000000000000003               , _instance_of_Business_Model_model____Player_0178f3760227c2853e6f);
 db.assign(_instance_of_Property__Player____life_0178f3774f3374670cef, _Object_gooRel_ff022000000000000003               , _instance_of_Business_Model_model____Player_0178f3760227c2853e6f);
 db.assign(_instance_of_Property__Player____score_0178f37795f5b7e95ac3, _Object_gooRel_ff022000000000000003               , _instance_of_Business_Model_model____Player_0178f3760227c2853e6f);
@@ -315,9 +358,11 @@ db.assign(_instance_of_Property__NumberColor____Number_0178f4716ad5b78fce65, _Ob
 db.assign(_instance_of_Property__NumberColor____Color_0178f471da73de494e54, _Object_gooRel_ff022000000000000003               , _instance_of_Business_Model_model____NumberColor_0178f4712c1770ee79cf);
 db.assign(_instance_of_Property__Game____LastNumbercolor_0178f4852abcd14bc380, _Object_gooRel_ff022000000000000003               , _instance_of_Business_Model_model____Game_0178f3776a851b19e18d);
 db.assign(_instance_of_Property__Player____Ingame_0178f8f204e1d15661f7, _Object_gooRel_ff022000000000000003               , _instance_of_Business_Model_model____Player_0178f3760227c2853e6f);
+db.assign(_instance_of_Property__TEST_DATA____plop_0178f9a0c17f80150ec1, _Object_gooRel_ff022000000000000003               , _instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f);
 db.assign(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _Object_containsRel_ff02200000000000000f          , _instance_of_Business_Model_model____Player_0178f3760227c2853e6f);
 db.assign(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _Object_containsRel_ff02200000000000000f          , _instance_of_Business_Model_model____Game_0178f3776a851b19e18d);
 db.assign(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _Object_containsRel_ff02200000000000000f          , _instance_of_Business_Model_model____NumberColor_0178f4712c1770ee79cf);
+db.assign(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _Object_containsRel_ff02200000000000000f          , _instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f);
 db.assign(_instance_of_Business_Model_model____Player_0178f3760227c2853e6f, _Object_containsRel_ff02200000000000000f          , _instance_of_Diagram_Metadata_0178f376022726bb775f);
 db.assign(_instance_of_Business_Model_model____Player_0178f3760227c2853e6f, _Object_containsRel_ff02200000000000000f          , _instance_of_Property__Player____colour_0178f377161c74798ce4);
 db.assign(_instance_of_Business_Model_model____Player_0178f3760227c2853e6f, _Object_containsRel_ff02200000000000000f          , _instance_of_Property__Player____life_0178f3774f3374670cef);
@@ -334,9 +379,12 @@ db.assign(_instance_of_Business_Model_model____Game_0178f3776a851b19e18d, _Objec
 db.assign(_instance_of_Business_Model_model____NumberColor_0178f4712c1770ee79cf, _Object_containsRel_ff02200000000000000f          , _instance_of_Diagram_Metadata_0178f4712c170df50f2e);
 db.assign(_instance_of_Business_Model_model____NumberColor_0178f4712c1770ee79cf, _Object_containsRel_ff02200000000000000f          , _instance_of_Property__NumberColor____Number_0178f4716ad5b78fce65);
 db.assign(_instance_of_Business_Model_model____NumberColor_0178f4712c1770ee79cf, _Object_containsRel_ff02200000000000000f          , _instance_of_Property__NumberColor____Color_0178f471da73de494e54);
+db.assign(_instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f, _Object_containsRel_ff02200000000000000f          , _instance_of_Diagram_Metadata_0178f9a0a32f5633bd89);
+db.assign(_instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f, _Object_containsRel_ff02200000000000000f          , _instance_of_Property__TEST_DATA____plop_0178f9a0c17f80150ec1);
 db.assign(_Pong_0178efbcf738f8f10226                        , _Project_primordialItemRel_ff02200000000000002a   , _instance_of_Business_Model_model____Player_0178f3760227c2853e6f);
 db.assign(_Pong_0178efbcf738f8f10226                        , _Project_primordialItemRel_ff02200000000000002a   , _instance_of_Business_Model_model____Game_0178f3776a851b19e18d);
 db.assign(_Pong_0178efbcf738f8f10226                        , _Project_primordialItemRel_ff02200000000000002a   , _instance_of_Business_Model_model____NumberColor_0178f4712c1770ee79cf);
+db.assign(_Pong_0178efbcf738f8f10226                        , _Project_primordialItemRel_ff02200000000000002a   , _instance_of_Business_Model_model____TEST_DATA_0178f9a0a32eef316e2f);
 db.assignOptional(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _Object_gooRel_ff022000000000000003, _Data_0178f374f0d9562a9861);
 db.assignOptional(_instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4, _GOO_parentGooRel_ff02200000000000000u, _Data_0178f374f0d9562a9861);
 db.assignOptional(_Data_0178f374f0d9562a9861, _Object_containsRel_ff02200000000000000f, _instance_of_Data_Model____Pong_DM_0178f37530709eb6c7a4);
