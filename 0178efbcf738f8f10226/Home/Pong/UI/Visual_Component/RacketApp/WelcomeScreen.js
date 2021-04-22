@@ -305,9 +305,7 @@ const _instance_of_Dispatch_Event_0178f8f81d3f6674e3ca = db.assignTag('0178f8f81
 const _instance_of_Pipe_0178f8f81d4042b4f87a        = db.assignTag('0178f8f81d4042b4f87a');
 const _instance_of_Pipe_0178f8f81d40a1226633        = db.assignTag('0178f8f81d40a1226633');
 const _instance_of_Function_Metadata_0178f8f81d40de83cdc6 = db.assignTag('0178f8f81d40de83cdc6');
-const _instance_of_Function_Metadata_0178f9a64ec0371eecef = db.assignTag('0178f9a64ec0371eecef');
-const _instance_of_Get_UI_Property_0178f9a64ec068c5ddd7 = db.assignTag('0178f9a64ec068c5ddd7');
-const _instance_of_Pipe_0178f9a64ec0795d144d        = db.assignTag('0178f9a64ec0795d144d');
+const _instance_of_Pipe_0178f9a6f743a7b28859        = db.assignTag('0178f9a6f743a7b28859');
 
 
 //==========================================================
@@ -326,6 +324,7 @@ const _containerLength_016f8f84669b9b268701    = '016f8f84669b9b268701';
 const _Control_Flow_01619e359988cdf3fc80       = '01619e359988cdf3fc80';
 const _Control_Flow_0162d2938caead968805       = '0162d2938caead968805';
 const _Control_Flow_0162d2938cafad968805       = '0162d2938cafad968805';
+const _Control_Flow_0178f44d60dc16f59f9f       = '0178f44d60dc16f59f9f';
 const _Control_Flow_0178f44d60dce1c252ca       = '0178f44d60dce1c252ca';
 const _Control_Flow_0178f454977448095fb0       = '0178f454977448095fb0';
 const _Custom_properties_0164188f5cc0c205bc06  = '0164188f5cc0c205bc06';
@@ -2185,30 +2184,8 @@ db.newInstance(_instance_of_Function_Metadata_0178f8f81d40de83cdc6)
         'v'                                     :1
     })
     .done();
-// >>goo_dep::_instance_of_Get_UI_Property_0178f9a64ec068c5ddd7
-db.newInstance(_instance_of_Get_UI_Property_0178f9a64ec068c5ddd7)
-    .setModelTag(_Get_UI_Property_0162de7dd5abdc9dec7f) // tag of the model
-    // Tag of goos
-    .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a)
-    // Tag of parent goos
-    .addParentGoo(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a)
-    .setNameOrProperties({
-        'v'                                     :1
-    })
-    .done();
-// :_instance_of_Function_Metadata_0178f9a64ec0371eecef
-db.newInstance(_instance_of_Function_Metadata_0178f9a64ec0371eecef)
-    .setModelTag(_Function_Metadata_01621f6ab29d770a3bba) // tag of the model
-    // Tag of goos
-    .addToGroupOfObjects(_instance_of_Get_UI_Property_0178f9a64ec068c5ddd7)
-    .setNameOrProperties({
-        [_Function_Metadata_x_01621f6ab58c2f884654]:20283.05821157501,
-        [_Function_Metadata_y_01621f6ab6ac89348f20]:20344.421474482908,
-        'v'                                     :1
-    })
-    .done();
-// :_instance_of_Pipe_0178f9a64ec0795d144d
-db.newInstance(_instance_of_Pipe_0178f9a64ec0795d144d)
+// :_instance_of_Pipe_0178f9a6f743a7b28859
+db.newInstance(_instance_of_Pipe_0178f9a6f743a7b28859)
     .setModelTag(_Pipe_0168a431d91f25780000) // tag of the model
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a)
@@ -2261,7 +2238,6 @@ db.assign(_instance_of_Is_Greater_Than_0178f8ca2aefb8916d1d , _Brick_Metadata_$_
 db.assign(_instance_of_Get_Related_Objects_0178f8f61d4e2ed8a3dc, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8f61d4e99639059);
 db.assign(_instance_of_Filter_List_Equals_0178f8f6637dcb633067, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8f6637d96a4301a);
 db.assign(_instance_of_Dispatch_Event_0178f8f81d3f6674e3ca  , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f8f81d40de83cdc6);
-db.assign(_instance_of_Get_UI_Property_0178f9a64ec068c5ddd7 , _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Function_Metadata_0178f9a64ec0371eecef);
 db.assign(_instance_of_Ascender_0178f3f21cf7bdee73bf        , _Ascender_Input_01621fb84e32000000a1              , _instance_of_Runnable_Input____New_input_0178f3f21cf7f2b671f6);
 db.assign(_instance_of_Ascender_0178f8c775d05141e182        , _Ascender_Input_01621fb84e32000000a1              , _instance_of_Runnable_Input____New_input_0178f8c775d0d29e9065);
 db.assign(_instance_of_Ascender_0178f3f21cf7bdee73bf        , _Ascender_Upward_01621fb84e32000000a2             , _instance_of_Runnable_Output____Game_0178f3f21cf7b454a738);
@@ -2348,7 +2324,7 @@ db.assign(_instance_of_Pipe_0178f8f6af94c1610b36            , _Pipe_Source_Scope
 db.assign(_instance_of_Pipe_0178f8f81d3e5bc0c75c            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Button____New_Button_0178f3c657635142cb62);
 db.assign(_instance_of_Pipe_0178f8f81d4042b4f87a            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df);
 db.assign(_instance_of_Pipe_0178f8f81d40a1226633            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Descender_0178f8f81d3e4a41ffa4       );
-db.assign(_instance_of_Pipe_0178f9a64ec0795d144d            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Button____New_Button_0178f3c657635142cb62);
+db.assign(_instance_of_Pipe_0178f9a6f743a7b28859            , _Pipe_Source_Scope_0168a431d91f25780002           , _instance_of_Set_UI_Property_0178f3efc60ac84ebfe0 );
 db.assign(_instance_of_Pipe_0178f3bf13486fcf5839            , _Pipe_Source_Output_0168a431d91f25780003          , _instance_of_Runnable_Output____New_output_0178f3b982d23dcf2a0a);
 db.assign(_instance_of_Pipe_0178f3bf1b0fc130758a            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0166e45ef58615222ffd                       );
 db.assign(_instance_of_Pipe_0178f3c7213ec97bd0dc            , _Pipe_Source_Output_0168a431d91f25780003          , _result_016f8aa140e84a037378                      );
@@ -2387,6 +2363,7 @@ db.assign(_instance_of_Pipe_0178f8f629bf17afdfa8            , _Pipe_Source_Outpu
 db.assign(_instance_of_Pipe_0178f8f66ff8730d94c0            , _Pipe_Source_Output_0168a431d91f25780003          , _Value_0168190b633078dba329                       );
 db.assign(_instance_of_Pipe_0178f8f6af94c1610b36            , _Pipe_Source_Output_0168a431d91f25780003          , _Filtered_list_016741382f05baf24b56               );
 db.assign(_instance_of_Pipe_0178f8f81d40a1226633            , _Pipe_Source_Output_0168a431d91f25780003          , _instance_of_Runnable_Output____New_output_0178f8f81d3e2d0de63a);
+db.assign(_instance_of_Pipe_0178f9a6f743a7b28859            , _Pipe_Source_Output_0168a431d91f25780003          , _Control_Flow_0162d2938cafad968805                );
 db.assign(_instance_of_Pipe_0178f3b982d20e5ea00d            , _Pipe_Source_Property_0168a431d91f25780004        , _Runnable_Definition_On_Load_0166446c1f128ebc903a );
 db.assign(_instance_of_Pipe_0178f3befa7be75b9e22            , _Pipe_Source_Property_0168a431d91f25780004        , _instance_of_Property__WelcomeScreen____tagGame_0178f3be316ee4bece6d);
 db.assign(_instance_of_Pipe_0178f3c7213e06f1e0f6            , _Pipe_Source_Property_0168a431d91f25780004        , _Renderable_Width_01611d99ec0553b5926e            );
@@ -2415,7 +2392,6 @@ db.assign(_instance_of_Pipe_0178f8c44a33b4570177            , _Pipe_Source_Prope
 db.assign(_instance_of_Pipe_0178f8c79ba9d4635bd6            , _Pipe_Source_Property_0168a431d91f25780004        , _instance_of_Property__WelcomeScreen____GameObject_0178f3eeb41f7b7b88ee);
 db.assign(_instance_of_Pipe_0178f8f81d3e5bc0c75c            , _Pipe_Source_Property_0168a431d91f25780004        , _Component_On_Click_01619aacf66faf45a75d          );
 db.assign(_instance_of_Pipe_0178f8f81d4042b4f87a            , _Pipe_Source_Property_0168a431d91f25780004        , _instance_of_Property__WelcomeScreen____New_Button_On_Click_0178f8f81cc5acc06d6f);
-db.assign(_instance_of_Pipe_0178f9a64ec0795d144d            , _Pipe_Source_Property_0168a431d91f25780004        , _Component_On_Click_01619aacf66faf45a75d          );
 db.assign(_instance_of_Pipe_0178f3b982d20e5ea00d            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_WelcomeScreen_On_Load_0178f3b982d235269f93);
 db.assign(_instance_of_Pipe_0178f3bb8b81c451b42a            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Get_Parameter_0178f3bb4dc32fd17475   );
 db.assign(_instance_of_Pipe_0178f3befa7be75b9e22            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Set_UI_Property_0178f3befa7aa4a298e8 );
@@ -2498,7 +2474,7 @@ db.assign(_instance_of_Pipe_0178f8f6af94c1610b36            , _Pipe_Destination_
 db.assign(_instance_of_Pipe_0178f8f81d3e5bc0c75c            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_New_Button_On_Click_0178f8f81d3ed8b3ef7f);
 db.assign(_instance_of_Pipe_0178f8f81d4042b4f87a            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Dispatch_Event_0178f8f81d3f6674e3ca  );
 db.assign(_instance_of_Pipe_0178f8f81d40a1226633            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Dispatch_Event_0178f8f81d3f6674e3ca  );
-db.assign(_instance_of_Pipe_0178f9a64ec0795d144d            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_Get_UI_Property_0178f9a64ec068c5ddd7 );
+db.assign(_instance_of_Pipe_0178f9a6f743a7b28859            , _Pipe_Destination_Scope_0168a431d91f2578000a      , _instance_of_CreateNewPlayer____CreateNewPlayer_0178f453d135b9c61c5b);
 db.assign(_instance_of_Pipe_0178f3b982d20e5ea00d            , _Pipe_Destination_Input_0168a431d91f2578000b      , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f3b982d2f9ae87a3);
 db.assign(_instance_of_Pipe_0178f3bb8b81c451b42a            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Name_0166e45d4c71b37524d8                        );
 db.assign(_instance_of_Pipe_0178f3befa7be75b9e22            , _Pipe_Destination_Input_0168a431d91f2578000b      , _UI_Property_0162d293ab6f65c86c52                 );
@@ -2567,7 +2543,7 @@ db.assign(_instance_of_Pipe_0178f8f6af94c1610b36            , _Pipe_Destination_
 db.assign(_instance_of_Pipe_0178f8f81d3e5bc0c75c            , _Pipe_Destination_Input_0168a431d91f2578000b      , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f8f81d3e7a00a6e3);
 db.assign(_instance_of_Pipe_0178f8f81d4042b4f87a            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Event_01619e359987cdf3fc81                       );
 db.assign(_instance_of_Pipe_0178f8f81d40a1226633            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Control_Flow_01619e359988cdf3fc80                );
-db.assign(_instance_of_Pipe_0178f9a64ec0795d144d            , _Pipe_Destination_Input_0168a431d91f2578000b      , _UI_Property_0162de7e041b00292ccd                 );
+db.assign(_instance_of_Pipe_0178f9a6f743a7b28859            , _Pipe_Destination_Input_0168a431d91f2578000b      , _Control_Flow_0178f44d60dc16f59f9f                );
 db.assign(_instance_of_Pipe_0178f3c7213ec97bd0dc            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_X_01611d99243ad989b91b                 );
 db.assign(_instance_of_Pipe_0178f3c841ea62221249            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_X_01611d99243ad989b91b                 );
 db.assign(_instance_of_Pipe_0178f3c970c933cfd0fc            , _Pipe_Destination_Property_0168a431d91f2578000c   , _Component_X_01611d99243ad989b91b                 );
@@ -2626,7 +2602,6 @@ db.assign(_instance_of_Get_Related_Objects_0178f8f61d4e2ed8a3dc, _Runnable_Defin
 db.assign(_instance_of_Filter_List_Equals_0178f8f6637dcb633067, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Filter_List_Equals_01674138206e8fde93fb          );
 db.assign(_instance_of_New_Button_On_Click_0178f8f81d3ed8b3ef7f, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _instance_of_Interaction_Event_Definition_model____New_Button_On_Click_0178f8f81d3de237c74e);
 db.assign(_instance_of_Dispatch_Event_0178f8f81d3f6674e3ca  , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Dispatch_Event_01619e359987cdf3fc80              );
-db.assign(_instance_of_Get_UI_Property_0178f9a64ec068c5ddd7 , _Runnable_Definition_of_runnable_01692a4af82e8984742b, _Get_UI_Property_0162de7dd5abdc9dec7f             );
 db.assign(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_WelcomeScreen_On_Load_0178f3b982d235269f93);
 db.assign(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Label____New_Label_0178f3c4ec7bc87a0a7b);
 db.assign(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Button____New_Button_0178f3c657635142cb62);
@@ -2664,7 +2639,6 @@ db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Lo
 db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Log_0178f4b46751b616159a             );
 db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Log_0178f4b46c45b85c3314             );
 db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Log_0178f4d7cedd19d5e63c             );
-db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_UI_Property_0178f9a64ec068c5ddd7 );
 db.assign(_instance_of_Function_model____New_Standings_Game_0178f3f21cf6fe79e40a, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Ascender_0178f3f21cf7bdee73bf        );
 db.assign(_instance_of_Function_model____New_Standings_Game_0178f3f21cf6fe79e40a, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Get_UI_Property_0178f3f2354c7cb31982 );
 db.assign(_instance_of_Function_model____New_More_Than6_Hidden_0178f8c775ce3eb422df, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_Ascender_0178f8c775d05141e182        );
@@ -2776,8 +2750,7 @@ db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Lo
 db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Object_containsRel_ff02200000000000000f          , _instance_of_Log_0178f4d7cedd19d5e63c             );
 db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f4d7cede1b18419f            );
 db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f4d7ffbd693695e5            );
-db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Object_containsRel_ff02200000000000000f          , _instance_of_Get_UI_Property_0178f9a64ec068c5ddd7 );
-db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f9a64ec0795d144d            );
+db.assign(_instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a, _Object_containsRel_ff02200000000000000f          , _instance_of_Pipe_0178f9a6f743a7b28859            );
 db.assign(_instance_of_WelcomeScreen_On_Load_0178f3b982d235269f93, _Object_containsRel_ff02200000000000000f          , _instance_of_Interaction_Event_Definition_model____WelcomeScreen_On_Load_0178f3b982d1aa3dfd8a);
 db.assign(_instance_of_Descender_0178f3b982d2c1725325       , _Object_containsRel_ff02200000000000000f          , _instance_of_Runnable_Output____New_output_0178f3b982d23dcf2a0a);
 db.assign(_instance_of_Descender_0178f3b982d2c1725325       , _Object_containsRel_ff02200000000000000f          , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f3b982d2f9ae87a3);
@@ -2885,7 +2858,6 @@ db.assign(_instance_of_Descender_0178f8f81d3e4a41ffa4       , _Object_containsRe
 db.assign(_instance_of_Descender_0178f8f81d3e4a41ffa4       , _Object_containsRel_ff02200000000000000f          , _instance_of_Predefined_input_Control_Flow_of_Interaction_Event_Definition____Control_Flow_0178f8f81d3e7a00a6e3);
 db.assign(_instance_of_New_Button_On_Click_0178f8f81d3ed8b3ef7f, _Object_containsRel_ff02200000000000000f          , _instance_of_Interaction_Event_Definition_model____New_Button_On_Click_0178f8f81d3de237c74e);
 db.assign(_instance_of_Dispatch_Event_0178f8f81d3f6674e3ca  , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f8f81d40de83cdc6);
-db.assign(_instance_of_Get_UI_Property_0178f9a64ec068c5ddd7 , _Object_containsRel_ff02200000000000000f          , _instance_of_Function_Metadata_0178f9a64ec0371eecef);
 db.assignOptional(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _Object_gooRel_ff022000000000000003, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df, _GOO_parentGooRel_ff02200000000000000u, _RacketApp_0178f39b0bbbad11abdd);
 db.assignOptional(_RacketApp_0178f39b0bbbad11abdd, _Object_containsRel_ff02200000000000000f, _instance_of_Screen_model____WelcomeScreen_0178f39bd876585f73df);
