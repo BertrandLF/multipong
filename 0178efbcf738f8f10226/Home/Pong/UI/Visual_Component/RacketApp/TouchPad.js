@@ -344,7 +344,7 @@ db.newInstance(_instance_of_Slider____New_Slider_0178f443dafa6ffd6f09)
         [_Component_Rank_016c23bd12493a7e1b2e]  :1,
         [_Component_X_01611d99243ad989b91b]     :27,
         [_Object_name_ff023000000000000011]     :'New Slider',
-        [_Slider_Increment_01697cd892e2698db26b]:0.05,
+        [_Slider_Increment_01697cd892e2698db26b]:0.1,
         [_Slider_Max_0163df0bca9e746a1bda]      :1,
         [_Slider_Value_0163df0bc2f7d39a2396]    :0,
         'v'                                     :1
