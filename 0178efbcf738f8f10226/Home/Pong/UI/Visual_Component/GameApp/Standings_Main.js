@@ -68,9 +68,11 @@ const _Renderable_Default_Color_01611d9c686bbed5fdba = '01611d9c686bbed5fdba';
 const _Renderable_Height_01611d9a0452a179c68f       = '01611d9a0452a179c68f';
 const _Renderable_Width_01611d99ec0553b5926e        = '01611d99ec0553b5926e';
 const _Runnable_IO_IO_Rank_01740c5d4ae4b520dd01     = '01740c5d4ae4b520dd01';
+const _TextComponent_Color_01633fa5303ccd8c1801     = '01633fa5303ccd8c1801';
 const _TextComponent_Horizontal_Align_0164229fd527ecd56900 = '0164229fd527ecd56900';
 const _TextComponent_Size_01633fa38ad45c58d04d      = '01633fa38ad45c58d04d';
 const _TextComponent_Text_01633fa386be67e6fd1d      = '01633fa386be67e6fd1d';
+const _TextComponent_Weight_01633fa38d2863f0a464    = '01633fa38d2863f0a464';
 
 
 // Definition of tags of defined relations
@@ -1473,6 +1475,10 @@ db.newInstance(_instance_of_Label____life_0178f9ab81bea6204235)
         [_Component_X_01611d99243ad989b91b]     :0,
         [_Component_Y_01611d9962e7f4f9a26d]     :0,
         [_Object_name_ff023000000000000011]     :'life',
+        [_TextComponent_Color_01633fa5303ccd8c1801]:db.createColor(0,0,0,1),
+        [_TextComponent_Horizontal_Align_0164229fd527ecd56900]:'center',
+        [_TextComponent_Size_01633fa38ad45c58d04d]:18,
+        [_TextComponent_Weight_01633fa38d2863f0a464]:600,
         'v'                                     :1
     })
     .done();

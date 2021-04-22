@@ -9,7 +9,6 @@ db.disableChecks();
 
 
 // Definition of tags of models used to construct instances
-const _GameOverScreen_0178f39c4908d9be6692     = '0178f39c4908d9be6692';
 const _PlayingScreen_0178f39dcd281e39173b      = '0178f39dcd281e39173b';
 const _Property_mapper_0162d3e045580eac6c53    = '0162d3e045580eac6c53';
 const _Screen_Metadata_01618a2027d80b4df10a    = '01618a2027d80b4df10a';
@@ -23,6 +22,7 @@ const _WelcomeScreen_0178f39bd876585f73df      = '0178f39bd876585f73df';
 
 // Definition of tags of defined properties
 const _Object_name_ff023000000000000011             = 'ff023000000000000011';
+const _PlayingScreen_Game_Over_0178f9c9c04c7e9c9d2f = '0178f9c9c04c7e9c9d2f';
 const _PlayingScreen_Player_0178f4821d66be5fbc38    = '0178f4821d66be5fbc38';
 const _Screen_Metadata_x_01618a205d68abad408d       = '01618a205d68abad408d';
 const _Screen_Metadata_y_01618a2046c5fefd75b6       = '01618a2046c5fefd75b6';
@@ -55,15 +55,13 @@ const _UISwitcher_Definition_Initial_Screen_0163f988aa658051daeb = '0163f988aa65
 const _instance_of_UIApp_Screenflow____UIApp_Screenflow_0178f39c965e6b036720 = db.assignTag('0178f39c965e6b036720');
 const _instance_of_UI_App_model____RacketApp_0178f39c965e7bb2b67a = db.assignTag('0178f39c965e7bb2b67a');
 const _instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768 = db.assignTag('0178f39c965e80858768');
-const _instance_of_Screen_Metadata_0178f39d962c03e52c05 = db.assignTag('0178f39d962c03e52c05');
-const _instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8 = db.assignTag('0178f39d962c0f68a2c8');
 const _instance_of_Screen_Metadata_0178f39df6c94dccd03b = db.assignTag('0178f39df6c94dccd03b');
 const _instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6 = db.assignTag('0178f39df6c9f12c84c6');
-const _instance_of_Screen_Transition_0178f39e0614485c57fc = db.assignTag('0178f39e0614485c57fc');
 const _instance_of_Screen_Metadata_0178f3c330d93f65a791 = db.assignTag('0178f3c330d93f65a791');
 const _instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6 = db.assignTag('0178f3c330d9e7f340e6');
 const _instance_of_Screen_Transition_0178f3c33b01eb5494e6 = db.assignTag('0178f3c33b01eb5494e6');
 const _instance_of_Property_mapper_0178f4828bbfedac2e79 = db.assignTag('0178f4828bbfedac2e79');
+const _instance_of_Screen_Transition_0178f9c992dcf815b4ee = db.assignTag('0178f9c992dcf815b4ee');
 
 
 //==========================================================
@@ -120,26 +118,6 @@ db.newInstance(_instance_of_UIApp_Screenflow____UIApp_Screenflow_0178f39c965e6b0
         'v'                                     :1
     })
     .done();
-// :_instance_of_Screen_Metadata_0178f39d962c03e52c05
-db.newInstance(_instance_of_Screen_Metadata_0178f39d962c03e52c05)
-    .setModelTag(_Screen_Metadata_01618a2027d80b4df10a) // tag of the model
-    // Tag of goos
-    .addToGroupOfObjects(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768)
-    .setNameOrProperties({
-        [_Screen_Metadata_x_01618a205d68abad408d]:20273,
-        [_Screen_Metadata_y_01618a2046c5fefd75b6]:19803,
-        'v'                                     :1
-    })
-    .done();
-// :_instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8
-db.newInstance(_instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8)
-    .setModelTag(_GameOverScreen_0178f39c4908d9be6692) // tag of the model
-    // Tag of goos
-    .addToGroupOfObjects(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768)
-    .setNameOrProperties({
-        'v'                                     :1
-    })
-    .done();
 // :_instance_of_Screen_Metadata_0178f39df6c94dccd03b
 db.newInstance(_instance_of_Screen_Metadata_0178f39df6c94dccd03b)
     .setModelTag(_Screen_Metadata_01618a2027d80b4df10a) // tag of the model
@@ -154,15 +132,6 @@ db.newInstance(_instance_of_Screen_Metadata_0178f39df6c94dccd03b)
 // :_instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6
 db.newInstance(_instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6)
     .setModelTag(_PlayingScreen_0178f39dcd281e39173b) // tag of the model
-    // Tag of goos
-    .addToGroupOfObjects(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768)
-    .setNameOrProperties({
-        'v'                                     :1
-    })
-    .done();
-// :_instance_of_Screen_Transition_0178f39e0614485c57fc
-db.newInstance(_instance_of_Screen_Transition_0178f39e0614485c57fc)
-    .setModelTag(_Screen_Transition_01619a10457e749fdf59) // tag of the model
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768)
     .setNameOrProperties({
@@ -207,12 +176,21 @@ db.newInstance(_instance_of_Property_mapper_0178f4828bbfedac2e79)
         'v'                                     :1
     })
     .done();
+// :_instance_of_Screen_Transition_0178f9c992dcf815b4ee
+db.newInstance(_instance_of_Screen_Transition_0178f9c992dcf815b4ee)
+    .setModelTag(_Screen_Transition_01619a10457e749fdf59) // tag of the model
+    // Tag of goos
+    .addToGroupOfObjects(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768)
+    .setNameOrProperties({
+        'v'                                     :1
+    })
+    .done();
 db.assign(_instance_of_Screen_Transition_0178f3c33b01eb5494e6, _Screen_Transition_event_01619a16a406bf504c90     , _WelcomeScreen_New_Button_On_Click_0178f8f81cc5acc06d6f);
-db.assign(_instance_of_Screen_Transition_0178f39e0614485c57fc, _Screen_Transition_from_01619a16a406bf504c9e      , _instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6);
+db.assign(_instance_of_Screen_Transition_0178f9c992dcf815b4ee, _Screen_Transition_event_01619a16a406bf504c90     , _PlayingScreen_Game_Over_0178f9c9c04c7e9c9d2f     );
 db.assign(_instance_of_Screen_Transition_0178f3c33b01eb5494e6, _Screen_Transition_from_01619a16a406bf504c9e      , _instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6);
-db.assign(_instance_of_Screen_Transition_0178f39e0614485c57fc, _Screen_Transition_to_01619a16a406bf504c9f        , _instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8);
+db.assign(_instance_of_Screen_Transition_0178f9c992dcf815b4ee, _Screen_Transition_from_01619a16a406bf504c9e      , _instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6);
 db.assign(_instance_of_Screen_Transition_0178f3c33b01eb5494e6, _Screen_Transition_to_01619a16a406bf504c9f        , _instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6);
-db.assign(_instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Screen_Metadata_0178f39d962c03e52c05 );
+db.assign(_instance_of_Screen_Transition_0178f9c992dcf815b4ee, _Screen_Transition_to_01619a16a406bf504c9f        , _instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6);
 db.assign(_instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Screen_Metadata_0178f39df6c94dccd03b );
 db.assign(_instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6, _Brick_Metadata_$_40_$Runtime$_41_$_metadata_0161ae97622bb21f335b, _instance_of_Screen_Metadata_0178f3c330d93f65a791 );
 db.assign(_instance_of_UI_App_model____RacketApp_0178f39c965e7bb2b67a, _UI_App_Theme_016200d21c9069cf23b4                , _Default_Theme_01644110be563fae3bf9               );
@@ -221,24 +199,20 @@ db.assign(_instance_of_Property_mapper_0178f4828bbfedac2e79 , _Property_mapper_t
 db.assign(_instance_of_Screen_Transition_0178f3c33b01eb5494e6, _Screen_Transition_propertyMapper_0162befc703dfd7b93b4, _instance_of_Property_mapper_0178f4828bbfedac2e79 );
 db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _UISwitcher_Definition_Initial_Screen_0163f988aa658051daeb, _instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6);
 db.assign(_instance_of_UIApp_Screenflow____UIApp_Screenflow_0178f39c965e6b036720, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768);
-db.assign(_instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _GameOverScreen_0178f39c4908d9be6692              );
 db.assign(_instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _PlayingScreen_0178f39dcd281e39173b               );
 db.assign(_instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6, _Runnable_Definition_of_runnable_01692a4af82e8984742b, _WelcomeScreen_0178f39bd876585f73df               );
 db.assign(_instance_of_UI_App_model____RacketApp_0178f39c965e7bb2b67a, _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c, _instance_of_UIApp_Screenflow____UIApp_Screenflow_0178f39c965e6b036720);
-db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Runnable_Definition_Conditional_Calls_Runnable_01692a4af82e8984742d, _instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8);
 db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Runnable_Definition_Conditional_Calls_Runnable_01692a4af82e8984742d, _instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6);
 db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Runnable_Definition_Conditional_Calls_Runnable_01692a4af82e8984742d, _instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6);
 db.assign(_instance_of_UI_App_model____RacketApp_0178f39c965e7bb2b67a, _Application_Definition_app_project_import_0171bc1f15da96dfdb89, _Pong_0178efbcf738f8f10226                        );
 db.assign(_instance_of_UIApp_Screenflow____UIApp_Screenflow_0178f39c965e6b036720, _Runnable_Anonymous_definition_01756a18d4921c103111, _instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768);
 db.assign(_instance_of_UIApp_Screenflow____UIApp_Screenflow_0178f39c965e6b036720, _Object_containsRel_ff02200000000000000f          , _instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768);
 db.assign(_instance_of_UI_App_model____RacketApp_0178f39c965e7bb2b67a, _Object_containsRel_ff02200000000000000f          , _instance_of_UIApp_Screenflow____UIApp_Screenflow_0178f39c965e6b036720);
-db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Object_containsRel_ff02200000000000000f          , _instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8);
 db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Object_containsRel_ff02200000000000000f          , _instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6);
-db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Object_containsRel_ff02200000000000000f          , _instance_of_Screen_Transition_0178f39e0614485c57fc);
 db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Object_containsRel_ff02200000000000000f          , _instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6);
 db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Object_containsRel_ff02200000000000000f          , _instance_of_Screen_Transition_0178f3c33b01eb5494e6);
 db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Object_containsRel_ff02200000000000000f          , _instance_of_Property_mapper_0178f4828bbfedac2e79 );
-db.assign(_instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8, _Object_containsRel_ff02200000000000000f          , _instance_of_Screen_Metadata_0178f39d962c03e52c05 );
+db.assign(_instance_of_Screenflow_definition_model____UIApp_Screenflow_0178f39c965e80858768, _Object_containsRel_ff02200000000000000f          , _instance_of_Screen_Transition_0178f9c992dcf815b4ee);
 db.assign(_instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6, _Object_containsRel_ff02200000000000000f          , _instance_of_Screen_Metadata_0178f39df6c94dccd03b );
 db.assign(_instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6, _Object_containsRel_ff02200000000000000f          , _instance_of_Screen_Metadata_0178f3c330d93f65a791 );
 db.assignOptional(_instance_of_UI_App_model____RacketApp_0178f39c965e7bb2b67a, _Object_gooRel_ff022000000000000003, _RacketApp_0178f39b0bbbad11abdd);
