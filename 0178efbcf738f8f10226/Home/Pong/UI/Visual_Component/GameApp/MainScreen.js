@@ -1419,9 +1419,11 @@ db.newInstance(_instance_of_Game____New_Game_0178f861dc49c9ed958b)
     .addParentGoo(_instance_of_Screen_model____MainScreen_0178f3944ca3868808df)
     .setNameOrProperties({
         [_Component_Rank_016c23bd12493a7e1b2e]  :4,
-        [_Component_X_01611d99243ad989b91b]     :173,
-        [_Component_Y_01611d9962e7f4f9a26d]     :154,
+        [_Component_X_01611d99243ad989b91b]     :9,
+        [_Component_Y_01611d9962e7f4f9a26d]     :12,
         [_Object_name_ff023000000000000011]     :'New Game',
+        [_Renderable_Height_01611d9a0452a179c68f]:449,
+        [_Renderable_Width_01611d99ec0553b5926e]:444,
         'v'                                     :1
     })
     .done();
