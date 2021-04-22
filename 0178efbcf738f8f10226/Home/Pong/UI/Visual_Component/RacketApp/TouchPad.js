@@ -634,8 +634,8 @@ db.newInstance(_instance_of_Function_Metadata_0178f3b29f4fc599891b)
     // Tag of goos
     .addToGroupOfObjects(_instance_of_Set_UI_Property_0178f3b29f4f6f44b62e)
     .setNameOrProperties({
-        [_Function_Metadata_x_01621f6ab58c2f884654]:21420,
-        [_Function_Metadata_y_01621f6ab6ac89348f20]:20484,
+        [_Function_Metadata_x_01621f6ab58c2f884654]:21445,
+        [_Function_Metadata_y_01621f6ab6ac89348f20]:20531,
         'v'                                     :1
     })
     .done();

@@ -26,6 +26,7 @@ const _Object_name_ff023000000000000011             = 'ff023000000000000011';
 const _PlayingScreen_Player_0178f4821d66be5fbc38    = '0178f4821d66be5fbc38';
 const _Screen_Metadata_x_01618a205d68abad408d       = '01618a205d68abad408d';
 const _Screen_Metadata_y_01618a2046c5fefd75b6       = '01618a2046c5fefd75b6';
+const _WelcomeScreen_New_Button_On_Click_0178f8f81cc5acc06d6f = '0178f8f81cc5acc06d6f';
 const _WelcomeScreen_Player_0178f452d7481f747885    = '0178f452d7481f747885';
 
 
@@ -42,6 +43,7 @@ const _Runnable_Anonymous_definition_01756a18d4921c103111 = '01756a18d4921c10311
 const _Runnable_Definition_Calls_Runnable_01692a4af82e8984742c = '01692a4af82e8984742c';
 const _Runnable_Definition_Conditional_Calls_Runnable_01692a4af82e8984742d = '01692a4af82e8984742d';
 const _Runnable_Definition_of_runnable_01692a4af82e8984742b = '01692a4af82e8984742b';
+const _Screen_Transition_event_01619a16a406bf504c90 = '01619a16a406bf504c90';
 const _Screen_Transition_from_01619a16a406bf504c9e  = '01619a16a406bf504c9e';
 const _Screen_Transition_propertyMapper_0162befc703dfd7b93b4 = '0162befc703dfd7b93b4';
 const _Screen_Transition_to_01619a16a406bf504c9f    = '01619a16a406bf504c9f';
@@ -205,6 +207,7 @@ db.newInstance(_instance_of_Property_mapper_0178f4828bbfedac2e79)
         'v'                                     :1
     })
     .done();
+db.assign(_instance_of_Screen_Transition_0178f3c33b01eb5494e6, _Screen_Transition_event_01619a16a406bf504c90     , _WelcomeScreen_New_Button_On_Click_0178f8f81cc5acc06d6f);
 db.assign(_instance_of_Screen_Transition_0178f39e0614485c57fc, _Screen_Transition_from_01619a16a406bf504c9e      , _instance_of_PlayingScreen____PlayingScreen_0178f39df6c9f12c84c6);
 db.assign(_instance_of_Screen_Transition_0178f3c33b01eb5494e6, _Screen_Transition_from_01619a16a406bf504c9e      , _instance_of_WelcomeScreen____WelcomeScreen_0178f3c330d9e7f340e6);
 db.assign(_instance_of_Screen_Transition_0178f39e0614485c57fc, _Screen_Transition_to_01619a16a406bf504c9f        , _instance_of_GameOverScreen____GameOverScreen_0178f39d962c0f68a2c8);
