@@ -20,6 +20,7 @@ const _NumberColor_Color_0178f471da73de494e54       = '0178f471da73de494e54';
 const _NumberColor_Number_0178f4716ad5b78fce65      = '0178f4716ad5b78fce65';
 const _Object_name_ff023000000000000011             = 'ff023000000000000011';
 const _Player_colour_0178f377161c74798ce4           = '0178f377161c74798ce4';
+const _Player_Ingame_0178f8f204e1d15661f7           = '0178f8f204e1d15661f7';
 const _Player_life_0178f3774f3374670cef             = '0178f3774f3374670cef';
 const _Player_name_0178f37b8ec7b9c01295             = '0178f37b8ec7b9c01295';
 
@@ -154,6 +155,7 @@ db.newInstance(_instance_of_Player____Player_0178f8ca3163d7c7bf1d)
     .addToGroupOfObjects(_instance_of_Data_Set____DataSet_0178f3ae68793da5d7b0)
     .setNameOrProperties({
         [_Player_colour_0178f377161c74798ce4]   :db.createColor(255,0,0,1),
+        [_Player_Ingame_0178f8f204e1d15661f7]   :false,
         [_Player_life_0178f3774f3374670cef]     :3,
         [_Player_name_0178f37b8ec7b9c01295]     :'Alice',
         'v'                                     :1
@@ -166,6 +168,7 @@ db.newInstance(_instance_of_Player____Player_0178f8ca35ac92acfbb4)
     .addToGroupOfObjects(_instance_of_Data_Set____DataSet_0178f3ae68793da5d7b0)
     .setNameOrProperties({
         [_Player_colour_0178f377161c74798ce4]   :db.createColor(0,255,0,1),
+        [_Player_Ingame_0178f8f204e1d15661f7]   :false,
         [_Player_life_0178f3774f3374670cef]     :3,
         [_Player_name_0178f37b8ec7b9c01295]     :'Bob',
         'v'                                     :1
